@@ -13,6 +13,8 @@
 		2EABA0481A176AFA00E9842F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0471A176AFA00E9842F /* Images.xcassets */; };
 		2EABA04B1A176AFA00E9842F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0491A176AFA00E9842F /* LaunchScreen.xib */; };
 		2EABA0571A176AFA00E9842F /* VlKeynrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */; };
+		2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
+		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +25,28 @@
 			remoteGlobalIDString = 2EABA03A1A176AFA00E9842F;
 			remoteInfo = VlKeynr;
 		};
+		2EABA06A1A176C4300E9842F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EABA0631A176C4300E9842F;
+			remoteInfo = VlKeynrPad;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EABA0701A176C4300E9842F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2EABA03B1A176AFA00E9842F /* VlKeynr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VlKeynr.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +59,9 @@
 		2EABA0501A176AFA00E9842F /* VlKeynrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VlKeynrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA0551A176AFA00E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlKeynrTests.swift; sourceTree = "<group>"; };
+		2EABA0641A176C4300E9842F /* VlKeynrPad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlKeynrPad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EABA0671A176C4300E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EABA0681A176C4300E9842F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EABA0611A176C4300E9842F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +94,7 @@
 			children = (
 				2EABA03D1A176AFA00E9842F /* VlKeynr */,
 				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
+				2EABA0651A176C4300E9842F /* VlKeynrPad */,
 				2EABA03C1A176AFA00E9842F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +104,7 @@
 			children = (
 				2EABA03B1A176AFA00E9842F /* VlKeynr.app */,
 				2EABA0501A176AFA00E9842F /* VlKeynrTests.xctest */,
+				2EABA0641A176C4300E9842F /* VlKeynrPad.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +147,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2EABA0651A176C4300E9842F /* VlKeynrPad */ = {
+			isa = PBXGroup;
+			children = (
+				2EABA0681A176C4300E9842F /* KeyboardViewController.swift */,
+				2EABA0661A176C4300E9842F /* Supporting Files */,
+			);
+			path = VlKeynrPad;
+			sourceTree = "<group>";
+		};
+		2EABA0661A176C4300E9842F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EABA0671A176C4300E9842F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +174,12 @@
 				2EABA0371A176AFA00E9842F /* Sources */,
 				2EABA0381A176AFA00E9842F /* Frameworks */,
 				2EABA0391A176AFA00E9842F /* Resources */,
+				2EABA0701A176C4300E9842F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2EABA06B1A176C4300E9842F /* PBXTargetDependency */,
 			);
 			name = VlKeynr;
 			productName = VlKeynr;
@@ -150,6 +204,23 @@
 			productReference = 2EABA0501A176AFA00E9842F /* VlKeynrTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2EABA0631A176C4300E9842F /* VlKeynrPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EABA06F1A176C4300E9842F /* Build configuration list for PBXNativeTarget "VlKeynrPad" */;
+			buildPhases = (
+				2EABA0601A176C4300E9842F /* Sources */,
+				2EABA0611A176C4300E9842F /* Frameworks */,
+				2EABA0621A176C4300E9842F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VlKeynrPad;
+			productName = VlKeynrPad;
+			productReference = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +236,9 @@
 					2EABA04F1A176AFA00E9842F = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 2EABA03A1A176AFA00E9842F;
+					};
+					2EABA0631A176C4300E9842F = {
+						CreatedOnToolsVersion = 6.1;
 					};
 				};
 			};
@@ -183,6 +257,7 @@
 			targets = (
 				2EABA03A1A176AFA00E9842F /* VlKeynr */,
 				2EABA04F1A176AFA00E9842F /* VlKeynrTests */,
+				2EABA0631A176C4300E9842F /* VlKeynrPad */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +274,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2EABA04E1A176AFA00E9842F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EABA0621A176C4300E9842F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +307,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EABA0601A176C4300E9842F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +322,11 @@
 			isa = PBXTargetDependency;
 			target = 2EABA03A1A176AFA00E9842F /* VlKeynr */;
 			targetProxy = 2EABA0511A176AFA00E9842F /* PBXContainerItemProxy */;
+		};
+		2EABA06B1A176C4300E9842F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EABA0631A176C4300E9842F /* VlKeynrPad */;
+			targetProxy = 2EABA06A1A176C4300E9842F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +485,30 @@
 			};
 			name = Release;
 		};
+		2EABA06D1A176C4300E9842F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VlKeynrPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2EABA06E1A176C4300E9842F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VlKeynrPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,12 +528,22 @@
 				2EABA05C1A176AFA00E9842F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EABA05D1A176AFA00E9842F /* Build configuration list for PBXNativeTarget "VlKeynrTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EABA05E1A176AFA00E9842F /* Debug */,
 				2EABA05F1A176AFA00E9842F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EABA06F1A176C4300E9842F /* Build configuration list for PBXNativeTarget "VlKeynrPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EABA06D1A176C4300E9842F /* Debug */,
+				2EABA06E1A176C4300E9842F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
