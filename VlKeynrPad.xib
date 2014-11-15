@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="VlKeynrPad" customModuleProvider="target">
+            <connections>
+                <outlet property="button1" destination="akL-Go-kXD" id="pbh-FK-toU"/>
+                <outlet property="button2" destination="hZl-9M-hrl" id="pbR-Wt-IEa"/>
+                <outlet property="button3" destination="Nd8-nE-pwV" id="T2Y-p4-EO4"/>
+                <outlet property="button4" destination="c1E-Qt-m82" id="sf5-xW-TKR"/>
+                <outlet property="button5" destination="hbR-kB-1Sd" id="U97-Kl-Rcr"/>
+                <outlet property="button6" destination="fTa-I6-G6M" id="ZrE-Fz-rRk"/>
+                <outlet property="button7" destination="921-78-A48" id="rmE-V7-UiQ"/>
+                <outlet property="button8" destination="FE8-D1-kZ2" id="0W6-2J-hLE"/>
+                <outlet property="button9" destination="pyk-NM-FCd" id="saD-iX-H6h"/>
+                <outlet property="view" destination="iN0-l3-epB" id="lh8-de-xLs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akL-Go-kXD" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" id="66j-oI-KTS"/>
+                        <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" multiplier="1:1" id="jtP-Ue-D2Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="1" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="66j-oI-KTS"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="FfY-sF-BUO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZl-9M-hrl" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="207" y="10" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" id="osL-98-cny"/>
+                        <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" multiplier="1:1" id="zq1-en-IIN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="2" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="osL-98-cny"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="ALq-PT-Obi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-nE-pwV" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="403" y="10" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" multiplier="1:1" id="Ezs-ZN-GiI"/>
+                        <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" id="cdP-ds-QCj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="3" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="cdP-ds-QCj"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="nOc-6l-vtL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1E-Qt-m82" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="10" y="207" width="187" height="186"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" multiplier="1:1" id="g4b-ml-pfg"/>
+                        <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" id="mgt-OR-RNg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="4" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="mgt-OR-RNg"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="Beu-Bm-5G4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbR-kB-1Sd" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="207" y="206" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" multiplier="1:1" id="Kzz-xm-6ud"/>
+                        <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" id="LAT-Vr-SzJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="5" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="LAT-Vr-SzJ"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="eYF-YI-C96"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTa-I6-G6M" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="403" y="207" width="187" height="186"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" multiplier="1:1" id="HNw-l5-nk0"/>
+                        <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" id="MW4-gQ-ASh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="6" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="MW4-gQ-ASh"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="msZ-bb-iyI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="921-78-A48" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="10" y="403" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="921-78-A48" secondAttribute="height" multiplier="1:1" id="NBL-5N-kux"/>
+                        <constraint firstAttribute="width" secondItem="921-78-A48" secondAttribute="height" id="bhw-wU-TAl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="7" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="bhw-wU-TAl"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="dKR-m6-k05"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-D1-kZ2" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="207" y="403" width="186" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" multiplier="1:1" id="4hV-Kz-fqQ"/>
+                        <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" id="e3h-eH-0QF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="8" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="e3h-eH-0QF"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="yTr-AK-sGv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyk-NM-FCd" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
+                    <rect key="frame" x="403" y="403" width="187" height="187"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="height" multiplier="1:1" id="PST-MW-IgM"/>
+                        <constraint firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="height" id="ZRY-Xu-Yql"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                    <state key="normal" title="9" backgroundImage="BonanzaButtonBackground.png">
+                        <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ZRY-Xu-Yql"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="playSound:" destination="-1" eventType="touchUpInside" id="B6c-GO-45U"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.16470588235294117" green="0.20392156862745098" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="width" id="1A8-J0-ppZ"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="width" id="CCJ-eA-h8s"/>
+                <constraint firstItem="Nd8-nE-pwV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="CHP-SX-8lO"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="921-78-A48" secondAttribute="height" id="Coi-sy-WVj"/>
+                <constraint firstItem="akL-Go-kXD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="Die-kF-sfd"/>
+                <constraint firstAttribute="centerX" secondItem="hZl-9M-hrl" secondAttribute="centerX" id="Fjx-ge-OQd"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="921-78-A48" secondAttribute="width" id="GZd-qG-STE"/>
+                <constraint firstItem="FE8-D1-kZ2" firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" multiplier="1:1" id="GiB-CV-5Cf"/>
+                <constraint firstAttribute="bottom" secondItem="921-78-A48" secondAttribute="bottom" constant="10" id="JW8-PK-jIF"/>
+                <constraint firstAttribute="centerX" secondItem="hbR-kB-1Sd" secondAttribute="centerX" id="JqS-w3-WxZ"/>
+                <constraint firstItem="pyk-NM-FCd" firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="height" multiplier="1:1" id="OCD-rW-uLZ"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="hbR-kB-1Sd" secondAttribute="height" id="Pro-Xl-DFw"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="hZl-9M-hrl" secondAttribute="height" id="Q4l-P0-eVZ"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" multiplier="1:1" id="Q6E-YB-aC0"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Rht-Fq-zTB"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="width" id="TLe-ME-V6j"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="width" id="TP2-2R-WTZ"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="fTa-I6-G6M" secondAttribute="height" id="UoF-Ek-ZpY"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="width" id="UpB-Kj-Z2T"/>
+                <constraint firstItem="Nd8-nE-pwV" firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" multiplier="1:1" id="WWa-bV-Sb6"/>
+                <constraint firstItem="921-78-A48" firstAttribute="top" relation="greaterThanOrEqual" secondItem="c1E-Qt-m82" secondAttribute="bottom" constant="10" id="Xzj-3n-y3f"/>
+                <constraint firstAttribute="centerY" secondItem="hbR-kB-1Sd" secondAttribute="centerY" id="ZcD-HH-MvP"/>
+                <constraint firstItem="921-78-A48" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Zrs-CZ-DD7"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="width" id="Zu0-Gh-ZLR"/>
+                <constraint firstAttribute="bottom" secondItem="FE8-D1-kZ2" secondAttribute="bottom" constant="10" id="aXK-Gj-lpW"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="top" relation="greaterThanOrEqual" secondItem="akL-Go-kXD" secondAttribute="bottom" constant="10" id="c08-d0-qbr"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="Nd8-nE-pwV" secondAttribute="height" id="cp4-61-NdQ"/>
+                <constraint firstAttribute="centerX" secondItem="FE8-D1-kZ2" secondAttribute="centerX" id="eoL-4j-cxJ"/>
+                <constraint firstAttribute="centerY" secondItem="fTa-I6-G6M" secondAttribute="centerY" id="evJ-Gr-RYt"/>
+                <constraint firstItem="akL-Go-kXD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="fPp-GY-QNn"/>
+                <constraint firstItem="fTa-I6-G6M" firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" multiplier="1:1" id="fWr-cU-FZy"/>
+                <constraint firstAttribute="centerY" secondItem="c1E-Qt-m82" secondAttribute="centerY" id="gXX-wi-z7h"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="akL-Go-kXD" secondAttribute="height" id="iKC-Ii-gSj"/>
+                <constraint firstItem="hZl-9M-hrl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="jVX-BZ-rpU"/>
+                <constraint firstItem="FE8-D1-kZ2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="921-78-A48" secondAttribute="trailing" constant="10" id="k84-BA-MpJ"/>
+                <constraint firstAttribute="trailing" secondItem="fTa-I6-G6M" secondAttribute="trailing" constant="10" id="kzM-JP-wXQ"/>
+                <constraint firstAttribute="trailing" secondItem="Nd8-nE-pwV" secondAttribute="trailing" constant="10" id="lar-rJ-qex"/>
+                <constraint firstItem="hZl-9M-hrl" firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" multiplier="1:1" id="qTp-BK-BdN"/>
+                <constraint firstItem="921-78-A48" firstAttribute="width" secondItem="921-78-A48" secondAttribute="height" multiplier="1:1" id="rHW-TY-WKy"/>
+                <constraint firstItem="pyk-NM-FCd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="FE8-D1-kZ2" secondAttribute="trailing" constant="10" id="rg6-uc-6DI"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="pyk-NM-FCd" secondAttribute="height" id="sav-9h-pgi"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="height" secondItem="FE8-D1-kZ2" secondAttribute="height" id="tfP-ad-aCE"/>
+                <constraint firstAttribute="bottom" secondItem="pyk-NM-FCd" secondAttribute="bottom" constant="10" id="tsx-pA-Zf4"/>
+                <constraint firstItem="akL-Go-kXD" firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" multiplier="1:1" id="u2n-Ma-nFp"/>
+                <constraint firstAttribute="trailing" secondItem="pyk-NM-FCd" secondAttribute="trailing" constant="10" id="vQO-gI-48c"/>
+                <constraint firstItem="hbR-kB-1Sd" firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" id="wb6-6d-vct"/>
+                <constraint firstItem="c1E-Qt-m82" firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="width" id="yL6-Ew-1PY"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="u2n-Ma-nFp"/>
+                    <exclude reference="Q6E-YB-aC0"/>
+                    <exclude reference="qTp-BK-BdN"/>
+                    <exclude reference="wb6-6d-vct"/>
+                    <exclude reference="rHW-TY-WKy"/>
+                    <exclude reference="WWa-bV-Sb6"/>
+                    <exclude reference="GiB-CV-5Cf"/>
+                    <exclude reference="fWr-cU-FZy"/>
+                    <exclude reference="OCD-rW-uLZ"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="BonanzaButtonBackground.png" width="320" height="320"/>
+    </resources>
+</document>

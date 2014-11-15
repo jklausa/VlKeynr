@@ -29,6 +29,10 @@
 		2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
 		2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
 		2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
+		4064AC051A17CB14003ABB0A /* BonanzaButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */; };
+		4064AC071A17CCC7003ABB0A /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */; };
+		40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
+		40A8A0BE1A17AA4E00FC9B79 /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 05.caf"; path = "Sounds/Suspense Accents 05.caf"; sourceTree = "<group>"; };
 		2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 06.caf"; path = "Sounds/Suspense Accents 06.caf"; sourceTree = "<group>"; };
 		2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 07.caf"; path = "Sounds/Suspense Accents 07.caf"; sourceTree = "<group>"; };
+		4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground.png; sourceTree = "<group>"; };
+		4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VlKeynrPad.xib; sourceTree = SOURCE_ROOT; };
+		40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VlKeynrSound.swift; sourceTree = "<group>"; };
+		40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = ../VlKeynrButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +179,12 @@
 		2EABA0651A176C4300E9842F /* VlKeynrPad */ = {
 			isa = PBXGroup;
 			children = (
+				4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */,
 				2EABA0711A176D7C00E9842F /* Sounds */,
 				2EABA0681A176C4300E9842F /* KeyboardViewController.swift */,
+				4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */,
+				40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */,
+				40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */,
 				2EABA0661A176C4300E9842F /* Supporting Files */,
 			);
 			path = VlKeynrPad;
@@ -330,7 +342,9 @@
 				2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */,
 				2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
 				2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
+				4064AC071A17CCC7003ABB0A /* VlKeynrPad.xib in Resources */,
 				2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
+				4064AC051A17CB14003ABB0A /* BonanzaButtonBackground.png in Resources */,
 				2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
 				2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
 				2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,
@@ -361,6 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */,
+				40A8A0BE1A17AA4E00FC9B79 /* VlKeynrButton.swift in Sources */,
 				2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +612,7 @@
 				2EABA06E1A176C4300E9842F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
