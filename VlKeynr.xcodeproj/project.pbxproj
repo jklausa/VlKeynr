@@ -15,6 +15,20 @@
 		2EABA0571A176AFA00E9842F /* VlKeynrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */; };
 		2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
 		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2EABA0791A176DAE00E9842F /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */; };
+		2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */; };
+		2EABA07B1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */; };
+		2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */; };
+		2EABA07D1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */; };
+		2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */; };
+		2EABA07F1A176DAE00E9842F /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */; };
+		2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */; };
+		2EABA0811A176DAE00E9842F /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */; };
+		2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */; };
+		2EABA0831A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
+		2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
+		2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
+		2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +76,13 @@
 		2EABA0641A176C4300E9842F /* VlKeynrPad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlKeynrPad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA0671A176C4300E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0681A176C4300E9842F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 01.caf"; path = "Sounds/Suspense Accents 01.caf"; sourceTree = "<group>"; };
+		2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 02.caf"; path = "Sounds/Suspense Accents 02.caf"; sourceTree = "<group>"; };
+		2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 03.caf"; path = "Sounds/Suspense Accents 03.caf"; sourceTree = "<group>"; };
+		2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 04.caf"; path = "Sounds/Suspense Accents 04.caf"; sourceTree = "<group>"; };
+		2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 05.caf"; path = "Sounds/Suspense Accents 05.caf"; sourceTree = "<group>"; };
+		2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 06.caf"; path = "Sounds/Suspense Accents 06.caf"; sourceTree = "<group>"; };
+		2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 07.caf"; path = "Sounds/Suspense Accents 07.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				2EABA03D1A176AFA00E9842F /* VlKeynr */,
-				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
 				2EABA0651A176C4300E9842F /* VlKeynrPad */,
+				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
 				2EABA03C1A176AFA00E9842F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +171,7 @@
 		2EABA0651A176C4300E9842F /* VlKeynrPad */ = {
 			isa = PBXGroup;
 			children = (
+				2EABA0711A176D7C00E9842F /* Sounds */,
 				2EABA0681A176C4300E9842F /* KeyboardViewController.swift */,
 				2EABA0661A176C4300E9842F /* Supporting Files */,
 			);
@@ -162,6 +184,20 @@
 				2EABA0671A176C4300E9842F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EABA0711A176D7C00E9842F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */,
+				2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */,
+				2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */,
+				2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */,
+				2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */,
+				2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */,
+				2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +303,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EABA07F1A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
 				2EABA0461A176AFA00E9842F /* Main.storyboard in Resources */,
 				2EABA04B1A176AFA00E9842F /* LaunchScreen.xib in Resources */,
+				2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
+				2EABA0811A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
 				2EABA0481A176AFA00E9842F /* Images.xcassets in Resources */,
+				2EABA07D1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
+				2EABA0831A176DAE00E9842F /* Suspense Accents 06.caf in Resources */,
+				2EABA07B1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
+				2EABA0791A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +327,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */,
+				2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
+				2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
+				2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
+				2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
+				2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
+				2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
