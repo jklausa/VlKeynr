@@ -36,12 +36,21 @@ enum VlKeynrSound {
     }
 
     private func urlForSound(sound: VlKeynrSound) -> NSURL? {
-        func pathForSound(soundName: String) -> String {
-            return NSBundle.mainBundle().pathForResource(soundName, ofType: "caf")!
+        func pathForSound(soundName: String) -> String? {
+            var cafFile = NSBundle.mainBundle().pathForResource(soundName, ofType: "caf")
+            if let file = cafFile {
+                return file
+            }
+
+            return NSBundle.mainBundle().pathForResource(soundName, ofType: "mp3")
         }
 
         func urlForFilename(soundName: String) -> NSURL? {
-            return NSURL(fileURLWithPath: pathForSound(soundName))!
+            if let pathForSound = pathForSound(soundName) {
+                return NSURL(fileURLWithPath: pathForSound)
+            }
+
+            return nil
         }
 
         switch self {
@@ -52,6 +61,7 @@ enum VlKeynrSound {
             case .SuspenseAccent5: return urlForFilename("Suspense Accents 05")
             case .SuspenseAccent6: return urlForFilename("Suspense Accents 06")
             case .SuspenseAccent7: return urlForFilename("Suspense Accents 07")
+            case .SoftMatt: return urlForFilename("SoftMatt")
             default: return nil
         }
     }
