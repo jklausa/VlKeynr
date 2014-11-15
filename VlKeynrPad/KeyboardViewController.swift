@@ -45,7 +45,6 @@ class KeyboardViewController: UIInputViewController {
         button6.associatedSound = .SuspenseAccent6
         button7.associatedSound = .SuspenseAccent7
         button8.associatedSound = .SoftMatt
-        button9.associatedSound = .Random
     }
 
     @IBAction func playSound(sender: VlKeynrButton) {
@@ -53,6 +52,9 @@ class KeyboardViewController: UIInputViewController {
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
                 self.audioPlayer = sound.play(self.audioPlayer)
             }
+        }
+        else {
+            advanceToNextInputMode()
         }
     }
 
