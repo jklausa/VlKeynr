@@ -29,6 +29,8 @@
 		2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
 		2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
 		2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
+		2EABA0881A176E0400E9842F /* VlKeynr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0871A176E0400E9842F /* VlKeynr.storyboard */; };
+		2EABA0891A176E0400E9842F /* VlKeynr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0871A176E0400E9842F /* VlKeynr.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,7 @@
 		2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 05.caf"; path = "Sounds/Suspense Accents 05.caf"; sourceTree = "<group>"; };
 		2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 06.caf"; path = "Sounds/Suspense Accents 06.caf"; sourceTree = "<group>"; };
 		2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 07.caf"; path = "Sounds/Suspense Accents 07.caf"; sourceTree = "<group>"; };
+		2EABA0871A176E0400E9842F /* VlKeynr.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VlKeynr.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,7 @@
 				2EABA0711A176D7C00E9842F /* Sounds */,
 				2EABA0681A176C4300E9842F /* KeyboardViewController.swift */,
 				2EABA0661A176C4300E9842F /* Supporting Files */,
+				2EABA0871A176E0400E9842F /* VlKeynr.storyboard */,
 			);
 			path = VlKeynrPad;
 			sourceTree = "<group>";
@@ -305,6 +309,7 @@
 			files = (
 				2EABA07F1A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
 				2EABA0461A176AFA00E9842F /* Main.storyboard in Resources */,
+				2EABA0881A176E0400E9842F /* VlKeynr.storyboard in Resources */,
 				2EABA04B1A176AFA00E9842F /* LaunchScreen.xib in Resources */,
 				2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
 				2EABA0811A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
@@ -331,6 +336,7 @@
 				2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
 				2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
 				2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
+				2EABA0891A176E0400E9842F /* VlKeynr.storyboard in Resources */,
 				2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
 				2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
 				2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,

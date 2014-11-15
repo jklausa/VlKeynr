@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Keyboard View Controller-->
+        <scene sceneID="pH3-Yd-qoD">
+            <objects>
+                <viewController id="ok1-IZ-cIy" customClass="KeyboardViewController" customModule="VlKeynrPad" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kk2-mp-rt6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kar-TS-dvu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L28-Bh-gzX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNy-nk-3aU">
+                                <rect key="frame" x="16" y="20" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="JNy-nk-3aU" secondAttribute="centerX" constant="261" id="8Z9-mf-Zga"/>
+                            <constraint firstItem="JNy-nk-3aU" firstAttribute="top" secondItem="Kk2-mp-rt6" secondAttribute="bottom" id="mTI-vT-Uqs"/>
+                            <constraint firstItem="JNy-nk-3aU" firstAttribute="leading" secondItem="L28-Bh-gzX" secondAttribute="leadingMargin" id="z11-9x-1PY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nextKeyboardButton" destination="JNy-nk-3aU" id="dpi-Vl-Lxm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4jY-71-JPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="355"/>
+        </scene>
+    </scenes>
+</document>
