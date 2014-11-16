@@ -53,9 +53,10 @@ class KeyboardViewController: UIInputViewController {
                 self.audioPlayer = sound.play(self.audioPlayer)
             }
         }
-        else {
-            advanceToNextInputMode()
-        }
+    }
+
+    @IBAction func globeButtonTapped() {
+        advanceToNextInputMode()
     }
 
     override func didReceiveMemoryWarning() {
