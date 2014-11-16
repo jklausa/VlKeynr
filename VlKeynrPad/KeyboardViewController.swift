@@ -22,8 +22,8 @@ class KeyboardViewController: UIInputViewController {
     @IBOutlet weak var button5: VlKeynrButton!
     @IBOutlet weak var button6: VlKeynrButton!
     @IBOutlet weak var button7: VlKeynrButton!
-    @IBOutlet weak var button9: VlKeynrButton!
     @IBOutlet weak var button8: VlKeynrButton!
+    @IBOutlet weak var buttonRandom: VlKeynrButton!
 
     var audioPlayer: AVAudioPlayer?
     override func viewDidLoad() {
@@ -45,6 +45,7 @@ class KeyboardViewController: UIInputViewController {
         button6.associatedSound = .SuspenseAccent6
         button7.associatedSound = .SuspenseAccent7
         button8.associatedSound = .SoftMatt
+        buttonRandom.associatedSound = VlKeynrSound(rawValue: Int(arc4random_uniform(9)))
     }
 
     @IBAction func playSound(sender: VlKeynrButton) {
@@ -58,6 +59,9 @@ class KeyboardViewController: UIInputViewController {
                 proxy.insertText(url)
             }
         }
+        
+        // Roll new random sound
+        buttonRandom.associatedSound = VlKeynrSound(rawValue: Int(arc4random_uniform(9)))
     }
 
     @IBAction func globeButtonTapped() {

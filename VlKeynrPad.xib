@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -11,11 +11,11 @@
                 <outlet property="button2" destination="hZl-9M-hrl" id="pbR-Wt-IEa"/>
                 <outlet property="button3" destination="Nd8-nE-pwV" id="T2Y-p4-EO4"/>
                 <outlet property="button4" destination="c1E-Qt-m82" id="sf5-xW-TKR"/>
-                <outlet property="button5" destination="hbR-kB-1Sd" id="U97-Kl-Rcr"/>
-                <outlet property="button6" destination="fTa-I6-G6M" id="ZrE-Fz-rRk"/>
-                <outlet property="button7" destination="921-78-A48" id="rmE-V7-UiQ"/>
-                <outlet property="button8" destination="FE8-D1-kZ2" id="0W6-2J-hLE"/>
-                <outlet property="button9" destination="pyk-NM-FCd" id="saD-iX-H6h"/>
+                <outlet property="button5" destination="fTa-I6-G6M" id="5Ff-dA-q1l"/>
+                <outlet property="button6" destination="921-78-A48" id="mfR-NY-qqf"/>
+                <outlet property="button7" destination="FE8-D1-kZ2" id="x4V-gV-I8D"/>
+                <outlet property="button8" destination="pyk-NM-FCd" id="avi-69-iU3"/>
+                <outlet property="buttonRandom" destination="hbR-kB-1Sd" id="m8P-dO-QCN"/>
                 <outlet property="view" destination="iN0-l3-epB" id="lh8-de-xLs"/>
             </connections>
         </placeholder>
@@ -25,7 +25,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akL-Go-kXD" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="11" y="10" width="186" height="187"/>
+                    <rect key="frame" x="11.5" y="10" width="186.5" height="186.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" id="66j-oI-KTS"/>
                         <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" multiplier="1:1" id="jtP-Ue-D2Y"/>
@@ -45,7 +45,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZl-9M-hrl" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="207" y="10" width="187" height="187"/>
+                    <rect key="frame" x="207.5" y="10" width="186" height="186.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" id="osL-98-cny"/>
                         <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" multiplier="1:1" id="zq1-en-IIN"/>
@@ -65,7 +65,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-nE-pwV" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="403" y="10" width="187" height="187"/>
+                    <rect key="frame" x="402.5" y="10" width="186.5" height="186.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" multiplier="1:1" id="Ezs-ZN-GiI"/>
                         <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" id="cdP-ds-QCj"/>
@@ -85,7 +85,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1E-Qt-m82" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="11" y="207" width="186" height="186"/>
+                    <rect key="frame" x="11.5" y="207" width="186" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" multiplier="1:1" id="g4b-ml-pfg"/>
                         <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" id="mgt-OR-RNg"/>
@@ -105,13 +105,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbR-kB-1Sd" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="207" y="206" width="187" height="187"/>
+                    <rect key="frame" x="207.5" y="206.5" width="186" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" multiplier="1:1" id="Kzz-xm-6ud"/>
                         <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" id="LAT-Vr-SzJ"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <state key="normal" title="5" backgroundImage="BonanzaButtonBackground.png">
+                    <state key="normal" title="R" backgroundImage="BonanzaButtonBackground.png">
                         <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -125,13 +125,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTa-I6-G6M" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="404" y="207" width="187" height="186"/>
+                    <rect key="frame" x="403.5" y="207" width="186" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" multiplier="1:1" id="HNw-l5-nk0"/>
                         <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" id="MW4-gQ-ASh"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <state key="normal" title="6" backgroundImage="BonanzaButtonBackground.png">
+                    <state key="normal" title="5" backgroundImage="BonanzaButtonBackground.png">
                         <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -145,13 +145,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="921-78-A48" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="10" y="403" width="187" height="187"/>
+                    <rect key="frame" x="10" y="403" width="186.5" height="186.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="921-78-A48" secondAttribute="height" multiplier="1:1" id="NBL-5N-kux"/>
                         <constraint firstAttribute="width" secondItem="921-78-A48" secondAttribute="height" id="bhw-wU-TAl"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <state key="normal" title="7" backgroundImage="BonanzaButtonBackground.png">
+                    <state key="normal" title="6" backgroundImage="BonanzaButtonBackground.png">
                         <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -165,13 +165,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-D1-kZ2" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="207" y="403" width="186" height="187"/>
+                    <rect key="frame" x="207" y="404" width="186" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" multiplier="1:1" id="4hV-Kz-fqQ"/>
                         <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" id="e3h-eH-0QF"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <state key="normal" title="8" backgroundImage="BonanzaButtonBackground.png">
+                    <state key="normal" title="7" backgroundImage="BonanzaButtonBackground.png">
                         <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -185,10 +185,10 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIZ-1v-4EN" userLabel="Globe">
-                    <rect key="frame" x="5" y="575" width="20" height="20"/>
+                    <rect key="frame" x="5" y="560" width="35" height="35"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="20" id="LOg-mp-wZf"/>
-                        <constraint firstAttribute="height" constant="20" id="u41-Nv-yBe"/>
+                        <constraint firstAttribute="width" constant="35" id="LOg-mp-wZf"/>
+                        <constraint firstAttribute="height" constant="35" id="u41-Nv-yBe"/>
                     </constraints>
                     <state key="normal" backgroundImage="globeIcon.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -198,13 +198,13 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pyk-NM-FCd" customClass="VlKeynrButton" customModule="VlKeynrPad" customModuleProvider="target">
-                    <rect key="frame" x="403" y="403" width="187" height="187"/>
+                    <rect key="frame" x="403" y="403" width="186.5" height="186.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="height" multiplier="1:1" id="PST-MW-IgM"/>
                         <constraint firstAttribute="width" secondItem="pyk-NM-FCd" secondAttribute="height" id="ZRY-Xu-Yql"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                    <state key="normal" title="9" backgroundImage="BonanzaButtonBackground.png">
+                    <state key="normal" title="8" backgroundImage="BonanzaButtonBackground.png">
                         <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>

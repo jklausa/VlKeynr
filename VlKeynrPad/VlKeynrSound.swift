@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 
-enum VlKeynrSound {
+enum VlKeynrSound : Int {
     case SuspenseAccent1
     case SuspenseAccent2
     case SuspenseAccent3
@@ -18,7 +18,6 @@ enum VlKeynrSound {
     case SuspenseAccent6
     case SuspenseAccent7
     case SoftMatt
-    case Random
 
     func play(audioPlayer: AVAudioPlayer?) -> AVAudioPlayer? {
         if let audioPlayer = audioPlayer {
@@ -48,7 +47,8 @@ enum VlKeynrSound {
         default: return nil
         }
     }
-
+    
+    
     private func urlForSound(sound: VlKeynrSound) -> NSURL? {
         func pathForSound(soundName: String) -> String? {
             var cafFile = NSBundle.mainBundle().pathForResource(soundName, ofType: "caf")
