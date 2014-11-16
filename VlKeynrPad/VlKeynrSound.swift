@@ -35,6 +35,20 @@ enum VlKeynrSound {
         return nil
     }
 
+    func url() -> String? {
+        switch self {
+        case .SuspenseAccent1: return "http://suspenseaccents.com/1"
+        case .SuspenseAccent2: return "http://suspenseaccents.com/2"
+        case .SuspenseAccent3: return "http://suspenseaccents.com/3"
+        case .SuspenseAccent4: return "http://suspenseaccents.com/4"
+        case .SuspenseAccent5: return "http://suspenseaccents.com/5"
+        case .SuspenseAccent6: return "http://suspenseaccents.com/6"
+        case .SuspenseAccent7: return "http://suspenseaccents.com/7"
+        case .SoftMatt: return "http://softmatt.tumblr.com"
+        default: return nil
+        }
+    }
+
     private func urlForSound(sound: VlKeynrSound) -> NSURL? {
         func pathForSound(soundName: String) -> String? {
             var cafFile = NSBundle.mainBundle().pathForResource(soundName, ofType: "caf")

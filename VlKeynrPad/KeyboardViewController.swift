@@ -52,6 +52,11 @@ class KeyboardViewController: UIInputViewController {
             dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
                 self.audioPlayer = sound.play(self.audioPlayer)
             }
+
+            if let url = sound.url() {
+                let proxy = textDocumentProxy as UIKeyInput
+                proxy.insertText(url)
+            }
         }
     }
 
@@ -70,15 +75,7 @@ class KeyboardViewController: UIInputViewController {
 
     override func textDidChange(textInput: UITextInput) {
         // The app has just changed the document's contents, the document context has been updated.
-    
-        var textColor: UIColor
-        var proxy = self.textDocumentProxy as UITextDocumentProxy
-        if proxy.keyboardAppearance == UIKeyboardAppearance.Dark {
-            textColor = UIColor.whiteColor()
-        } else {
-            textColor = UIColor.blackColor()
-        }
-        self.nextKeyboardButton.setTitleColor(textColor, forState: .Normal)
     }
-
 }
+
+
