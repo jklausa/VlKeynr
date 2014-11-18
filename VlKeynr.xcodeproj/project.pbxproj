@@ -10,13 +10,73 @@
 		2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 		2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
-		2E362E3B1A1BDE3A00D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
-		2E362E3C1A1BDE4400D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
-		2E362E3D1A1BDE4400D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
-		2E362E3E1A1BDE4500D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
 		2E362E3F1A1BDE5600D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E401A1BDE5700D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E411A1BDE5E00D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
+		2E362E571A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
+		2E362E581A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
+		2E362E591A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
+		2E362E5A1A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
+		2E362E5B1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
+		2E362E5C1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
+		2E362E5D1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
+		2E362E5E1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
+		2E362E5F1A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */; };
+		2E362E601A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */; };
+		2E362E611A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */; };
+		2E362E621A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */; };
+		2E362E631A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */; };
+		2E362E641A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */; };
+		2E362E651A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */; };
+		2E362E661A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */; };
+		2E362E671A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */; };
+		2E362E681A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */; };
+		2E362E691A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */; };
+		2E362E6A1A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */; };
+		2E362E6B1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */; };
+		2E362E6C1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */; };
+		2E362E6D1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */; };
+		2E362E6E1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */; };
+		2E362E6F1A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */; };
+		2E362E701A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */; };
+		2E362E711A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */; };
+		2E362E721A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */; };
+		2E362E731A1BF29B00D6968B /* BonanzaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */; };
+		2E362E741A1BF29B00D6968B /* BonanzaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */; };
+		2E362E751A1BF29B00D6968B /* BonanzaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */; };
+		2E362E761A1BF29B00D6968B /* BonanzaLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */; };
+		2E362E771A1BF29B00D6968B /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */; };
+		2E362E781A1BF29B00D6968B /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */; };
+		2E362E791A1BF29B00D6968B /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */; };
+		2E362E7A1A1BF29B00D6968B /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */; };
+		2E362E7B1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */; };
+		2E362E7C1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */; };
+		2E362E7D1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */; };
+		2E362E7E1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */; };
+		2E362E7F1A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */; };
+		2E362E801A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */; };
+		2E362E811A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */; };
+		2E362E821A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */; };
+		2E362E831A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */; };
+		2E362E841A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */; };
+		2E362E851A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */; };
+		2E362E861A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */; };
+		2E362E871A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */; };
+		2E362E881A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */; };
+		2E362E891A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */; };
+		2E362E8A1A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */; };
+		2E362E8B1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */; };
+		2E362E8C1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */; };
+		2E362E8D1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */; };
+		2E362E8E1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */; };
+		2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */; };
+		2E362E901A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */; };
+		2E362E911A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */; };
+		2E362E921A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */; };
+		2E362E931A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
+		2E362E941A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
+		2E362E951A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
+		2E362E961A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
 		2E4329861A1BDAB200D019DD /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E43294B1A1BD70300D019DD /* WatchKit.framework */; };
 		2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298B1A1BDAB200D019DD /* InterfaceController.swift */; };
 		2E43298E1A1BDAB200D019DD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298D1A1BDAB200D019DD /* NotificationController.swift */; };
@@ -85,7 +145,22 @@
 /* Begin PBXFileReference section */
 		2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = VlKeynrPad/VlKeynrButton.swift; sourceTree = "<group>"; };
 		2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VlKeynrPad.xib; path = VlKeynrPad/VlKeynrPad.xib; sourceTree = "<group>"; };
-		2E362E3A1A1BDE3A00D6968B /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground0.png; sourceTree = "<group>"; };
+		2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground1.png; sourceTree = "<group>"; };
+		2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground2.png; sourceTree = "<group>"; };
+		2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground3.png; sourceTree = "<group>"; };
+		2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground4.png; sourceTree = "<group>"; };
+		2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground5.png; sourceTree = "<group>"; };
+		2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground6.png; sourceTree = "<group>"; };
+		2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaLogo.png; sourceTree = "<group>"; };
+		2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoftMatt.mp3; sourceTree = "<group>"; };
+		2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 01.caf"; sourceTree = "<group>"; };
+		2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 02.caf"; sourceTree = "<group>"; };
+		2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 03.caf"; sourceTree = "<group>"; };
+		2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 04.caf"; sourceTree = "<group>"; };
+		2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 05.caf"; sourceTree = "<group>"; };
+		2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 06.caf"; sourceTree = "<group>"; };
+		2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suspense Accents 07.caf"; sourceTree = "<group>"; };
 		2E43294B1A1BD70300D019DD /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		2E4329611A1BD70400D019DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4329621A1BD70400D019DD /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
@@ -146,6 +221,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E362E441A1BF29B00D6968B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2E362E451A1BF29B00D6968B /* Images */,
+				2E362E4E1A1BF29B00D6968B /* Sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2E362E451A1BF29B00D6968B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */,
+				2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */,
+				2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */,
+				2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */,
+				2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */,
+				2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */,
+				2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */,
+				2E362E4D1A1BF29B00D6968B /* BonanzaLogo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2E362E4E1A1BF29B00D6968B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */,
+				2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */,
+				2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */,
+				2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */,
+				2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */,
+				2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */,
+				2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */,
+				2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		2E43294A1A1BD70300D019DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,9 +325,9 @@
 				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
 				2E43295F1A1BD70400D019DD /* VlKeynr Watch App */,
 				2E4329871A1BDAB200D019DD /* VlKeynr WatchKit Extension */,
-				2E362E3A1A1BDE3A00D6968B /* Assets */,
 				2E43294A1A1BD70300D019DD /* Frameworks */,
 				2EABA03C1A176AFA00E9842F /* Products */,
+				2E362E441A1BF29B00D6968B /* Assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -429,8 +543,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E362E591A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
+				2E362E6D1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
+				2E362E691A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
+				2E362E951A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
+				2E362E7D1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */,
+				2E362E5D1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
+				2E362E751A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
+				2E362E891A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
+				2E362E791A1BF29B00D6968B /* SoftMatt.mp3 in Resources */,
 				2E4329901A1BDAB200D019DD /* Images.xcassets in Resources */,
-				2E362E3C1A1BDE4400D6968B /* Assets in Resources */,
+				2E362E651A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
+				2E362E811A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
+				2E362E911A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
+				2E362E8D1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
+				2E362E711A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2E362E851A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
+				2E362E611A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +568,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E362E3E1A1BDE4500D6968B /* Assets in Resources */,
+				2E362E621A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
+				2E362E5A1A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
+				2E362E5E1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
+				2E362E8E1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
+				2E362E721A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2E362E761A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
+				2E362E8A1A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
+				2E362E6E1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
+				2E362E6A1A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
+				2E362E921A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
+				2E362E661A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
+				2E362E7A1A1BF29B00D6968B /* SoftMatt.mp3 in Resources */,
+				2E362E861A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
+				2E362E961A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
+				2E362E821A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
+				2E362E7E1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,9 +591,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E362E931A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
+				2E362E671A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
+				2E362E631A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
+				2E362E5F1A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
+				2E362E571A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
+				2E362E8B1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
 				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
-				2E362E3B1A1BDE3A00D6968B /* Assets in Resources */,
+				2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
+				2E362E6B1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
+				2E362E731A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
+				2E362E7F1A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
+				2E362E771A1BF29B00D6968B /* SoftMatt.mp3 in Resources */,
+				2E362E871A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
+				2E362E5B1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
+				2E362E6F1A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2E362E831A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
+				2E362E7B1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */,
 				2EABA0481A176AFA00E9842F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,9 +624,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E362E581A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
+				2E362E6C1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
+				2E362E681A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
+				2E362E941A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
+				2E362E7C1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */,
+				2E362E5C1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
+				2E362E741A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
+				2E362E881A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
+				2E362E781A1BF29B00D6968B /* SoftMatt.mp3 in Resources */,
 				2E362E411A1BDE5E00D6968B /* VlKeynrPad.xib in Resources */,
+				2E362E641A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
+				2E362E801A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
+				2E362E901A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
+				2E362E8C1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
+				2E362E701A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2E362E841A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
+				2E362E601A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */,
-				2E362E3D1A1BDE4400D6968B /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
