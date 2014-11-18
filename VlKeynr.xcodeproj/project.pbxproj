@@ -92,6 +92,7 @@
 		2EABA0571A176AFA00E9842F /* VlKeynrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */; };
 		2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
 		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2EB225201A1BFA59005A6E10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329621A1BD70400D019DD /* Interface.storyboard */; };
 		4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 		40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 /* End PBXBuildFile section */
@@ -568,6 +569,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB225201A1BFA59005A6E10 /* Interface.storyboard in Resources */,
 				2E362E621A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E362E5A1A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
 				2E362E5E1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
