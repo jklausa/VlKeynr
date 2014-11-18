@@ -10,9 +10,9 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="VlKeynr_Watch_App" customModuleProvider="target">
                     <items>
-                        <group alignment="left" layout="vertical" hasDetent="YES" id="fn0-sz-hvO" userLabel="main group">
+                        <group height="1" alignment="left" layout="vertical" hasDetent="YES" id="fn0-sz-hvO" userLabel="main group">
                             <items>
-                                <group width="1" alignment="left" id="9ar-5X-1jA" userLabel="first row">
+                                <group width="1" height="0.34000000000000002" alignment="left" id="9ar-5X-1jA" userLabel="first row">
                                     <items>
                                         <button width="43" height="43" alignment="left" title="1" backgroundImage="BonanzaButtonBackground1.png" id="FOp-Jg-5bz">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -34,7 +34,7 @@
                                         </button>
                                     </items>
                                 </group>
-                                <group width="1" alignment="left" id="xAZ-ao-omf" userLabel="second row">
+                                <group width="1" height="0.34000000000000002" alignment="left" id="xAZ-ao-omf" userLabel="second row">
                                     <items>
                                         <button width="43" height="43" alignment="left" title="4" backgroundImage="BonanzaButtonBackground4.png" id="fnN-n6-tFf">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,7 +56,7 @@
                                         </button>
                                     </items>
                                 </group>
-                                <group width="1" alignment="left" id="Lfe-bp-P0K" userLabel="third row">
+                                <group width="1" height="0.33000000000000002" alignment="left" id="Lfe-bp-P0K" userLabel="third row">
                                     <items>
                                         <button width="43" height="43" alignment="left" title="7" backgroundImage="BonanzaButtonBackground6.png" id="Eg7-Cv-vLO">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
