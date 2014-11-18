@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="VlKeynr_Watch_App" customModuleProvider="target">
                     <items>
-                        <group width="134" alignment="left" layout="vertical" hasDetent="YES" id="fn0-sz-hvO" userLabel="main group">
+                        <group alignment="left" layout="vertical" hasDetent="YES" id="fn0-sz-hvO" userLabel="main group">
                             <items>
                                 <group width="1" alignment="left" id="9ar-5X-1jA" userLabel="first row">
                                     <items>
@@ -20,13 +20,13 @@
                                                 <action selector="fistButonTapped" destination="AgC-eL-Hgc" id="VWa-Kp-yui"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="2" backgroundImage="BonanzaButtonBackground2.png" id="eHV-qk-gsa">
+                                        <button width="43" height="43" alignment="center" title="2" backgroundImage="BonanzaButtonBackground2.png" id="eHV-qk-gsa">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="secondbuttonTapped" destination="AgC-eL-Hgc" id="5t7-b1-hfB"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="3" backgroundImage="BonanzaButtonBackground3.png" id="1C0-BR-gKL">
+                                        <button width="43" height="43" alignment="right" title="3" backgroundImage="BonanzaButtonBackground3.png" id="1C0-BR-gKL">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="thirdButtonTapped" destination="AgC-eL-Hgc" id="XLs-ng-MFm"/>
@@ -42,13 +42,13 @@
                                                 <action selector="fourthButtonTapped" destination="AgC-eL-Hgc" id="lZy-Vh-Vao"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="?" backgroundImage="BonanzaButtonBackground0.png" id="SK5-IS-bnv">
+                                        <button width="43" height="43" alignment="center" title="?" backgroundImage="BonanzaButtonBackground0.png" id="SK5-IS-bnv">
                                             <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="randomButtonTapped" destination="AgC-eL-Hgc" id="yiF-Rt-5PJ"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="6" backgroundImage="BonanzaButtonBackground5.png" id="plQ-Qk-lab">
+                                        <button width="43" height="43" alignment="right" title="6" backgroundImage="BonanzaButtonBackground5.png" id="plQ-Qk-lab">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="sixthButtonTapped" destination="AgC-eL-Hgc" id="Y53-6M-o7P"/>
@@ -64,13 +64,13 @@
                                                 <action selector="seventhButtonTapped" destination="AgC-eL-Hgc" id="fBM-84-N36"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="8" backgroundImage="BonanzaButtonBackground1.png" id="eFr-mc-VKe">
+                                        <button width="43" height="43" alignment="center" title="8" backgroundImage="BonanzaButtonBackground1.png" id="eFr-mc-VKe">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="eigthButtonTapped" destination="AgC-eL-Hgc" id="wcy-Dj-nOh"/>
                                             </connections>
                                         </button>
-                                        <button width="43" height="43" alignment="left" title="9" backgroundImage="BonanzaButtonBackground2.png" id="z4s-aO-UWK">
+                                        <button width="43" height="43" alignment="right" title="9" backgroundImage="BonanzaButtonBackground2.png" id="z4s-aO-UWK">
                                             <color key="titleColor" red="0.1647058824" green="0.20392156859999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="ninthButtonTapped" destination="AgC-eL-Hgc" id="Zd1-Gu-rjp"/>
