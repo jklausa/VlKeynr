@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>VlKeynr Watch App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>VlKeynr.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2E43295A1A1BD70400D019DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E4329921A1BDAB300D019DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2EABA03A1A176AFA00E9842F</key>
 		<dict>
 			<key>primary</key>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Igy-T1-nIn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0CB-mK-a6S">
+            <objects>
+                <viewController id="Igy-T1-nIn" customClass="ViewController" customModule="VlKeynr" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="spy-RR-i4Q"/>
+                        <viewControllerLayoutGuide type="bottom" id="n2D-B4-9l6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PrY-B4-s3D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-56-lv9">
+                                <rect key="frame" x="0.0" y="322" width="414" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9Qz-56-lv9" secondAttribute="height" multiplier="1:1" id="mdS-lj-JNZ"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
+                                </connections>
+                            </containerView>
+                            <button opaque="NO" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-hn-qh9">
+                                <rect key="frame" x="-18" y="0.0" width="450" height="322"/>
+                                <state key="normal" backgroundImage="bonanza.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.1529411765" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Qz-56-lv9" secondAttribute="trailing" constant="-16" id="fxZ-tr-7gM"/>
+                            <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="9Qz-56-lv9" secondAttribute="bottom" id="jjv-9V-iD9"/>
+                            <constraint firstItem="9Qz-56-lv9" firstAttribute="width" secondItem="PrY-B4-s3D" secondAttribute="width" id="omR-sG-qN9"/>
+                            <constraint firstItem="9Qz-56-lv9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="-16" id="rPW-ec-JgA"/>
+                            <constraint firstItem="9Qz-56-lv9" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="350" id="rTD-Hz-Lv7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rTD-Hz-Lv7"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lje-pz-9sr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="-54"/>
+        </scene>
+        <!--Keyboard View Controller-->
+        <scene sceneID="3IC-aq-6Pk">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="lxU-p5-vtQ" customClass="KeyboardViewController" customModule="VlKeynr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vf3-N8-Vdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="lUQ-us-fNr"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OLk-8e-GVc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bqy-Za-t98" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="548" y="-54"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bonanza.png" width="450" height="450"/>
+    </resources>
+</document>

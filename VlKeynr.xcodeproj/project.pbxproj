@@ -7,37 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
+		2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
+		2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
+		2E362E3B1A1BDE3A00D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
+		2E362E3C1A1BDE4400D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
+		2E362E3D1A1BDE4400D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
+		2E362E3E1A1BDE4500D6968B /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E3A1A1BDE3A00D6968B /* Assets */; };
+		2E362E3F1A1BDE5600D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
+		2E362E401A1BDE5700D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
+		2E362E411A1BDE5E00D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
+		2E4329861A1BDAB200D019DD /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E43294B1A1BD70300D019DD /* WatchKit.framework */; };
+		2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298B1A1BDAB200D019DD /* InterfaceController.swift */; };
+		2E43298E1A1BDAB200D019DD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298D1A1BDAB200D019DD /* NotificationController.swift */; };
+		2E4329901A1BDAB200D019DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43298F1A1BDAB200D019DD /* Images.xcassets */; };
+		2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */; };
+		2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E53B1751A18E5980026E154 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
+		2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E53B1781A18E7D90026E154 /* Main.storyboard */; };
+		2E53B17A1A18E8780026E154 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
 		2EABA0411A176AFA00E9842F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0401A176AFA00E9842F /* AppDelegate.swift */; };
 		2EABA0431A176AFA00E9842F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0421A176AFA00E9842F /* ViewController.swift */; };
-		2EABA0461A176AFA00E9842F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0441A176AFA00E9842F /* Main.storyboard */; };
 		2EABA0481A176AFA00E9842F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0471A176AFA00E9842F /* Images.xcassets */; };
-		2EABA04B1A176AFA00E9842F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0491A176AFA00E9842F /* LaunchScreen.xib */; };
 		2EABA0571A176AFA00E9842F /* VlKeynrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */; };
 		2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
 		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2EABA0791A176DAE00E9842F /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */; };
-		2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */; };
-		2EABA07B1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */; };
-		2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */; };
-		2EABA07D1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */; };
-		2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */; };
-		2EABA07F1A176DAE00E9842F /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */; };
-		2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */; };
-		2EABA0811A176DAE00E9842F /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */; };
-		2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */; };
-		2EABA0831A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
-		2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */; };
-		2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
-		2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */; };
-		4064AC051A17CB14003ABB0A /* BonanzaButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */; };
-		4064AC071A17CCC7003ABB0A /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */; };
-		4064AC091A17D8AF003ABB0A /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC081A17D8AF003ABB0A /* SoftMatt.mp3 */; };
 		4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 		40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
-		40A8A0BE1A17AA4E00FC9B79 /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2E4329951A1BDAB300D019DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4329921A1BDAB300D019DD;
+			remoteInfo = "VlKeynr Watch App";
+		};
+		2E43299E1A1BDAB300D019DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4329841A1BDAB200D019DD;
+			remoteInfo = "VlKeynr WatchKit Extension";
+		};
 		2EABA0511A176AFA00E9842F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
@@ -61,6 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */,
 				2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -69,35 +83,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = VlKeynrPad/VlKeynrButton.swift; sourceTree = "<group>"; };
+		2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VlKeynrPad.xib; path = VlKeynrPad/VlKeynrPad.xib; sourceTree = "<group>"; };
+		2E362E3A1A1BDE3A00D6968B /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		2E43294B1A1BD70300D019DD /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		2E4329611A1BD70400D019DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4329621A1BD70400D019DD /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		2E4329641A1BD70400D019DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VlKeynr WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4329891A1BDAB200D019DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E43298A1A1BDAB200D019DD /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		2E43298B1A1BDAB200D019DD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2E43298D1A1BDAB200D019DD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		2E43298F1A1BDAB200D019DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VlKeynr Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E53B1781A18E7D90026E154 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2EABA03B1A176AFA00E9842F /* VlKeynr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VlKeynr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA03F1A176AFA00E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0401A176AFA00E9842F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EABA0421A176AFA00E9842F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EABA0451A176AFA00E9842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EABA0471A176AFA00E9842F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2EABA04A1A176AFA00E9842F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2EABA0501A176AFA00E9842F /* VlKeynrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VlKeynrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA0551A176AFA00E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0561A176AFA00E9842F /* VlKeynrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VlKeynrTests.swift; sourceTree = "<group>"; };
 		2EABA0641A176C4300E9842F /* VlKeynrPad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlKeynrPad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA0671A176C4300E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0681A176C4300E9842F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 01.caf"; path = "Sounds/Suspense Accents 01.caf"; sourceTree = "<group>"; };
-		2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 02.caf"; path = "Sounds/Suspense Accents 02.caf"; sourceTree = "<group>"; };
-		2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 03.caf"; path = "Sounds/Suspense Accents 03.caf"; sourceTree = "<group>"; };
-		2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 04.caf"; path = "Sounds/Suspense Accents 04.caf"; sourceTree = "<group>"; };
-		2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 05.caf"; path = "Sounds/Suspense Accents 05.caf"; sourceTree = "<group>"; };
-		2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 06.caf"; path = "Sounds/Suspense Accents 06.caf"; sourceTree = "<group>"; };
-		2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Suspense Accents 07.caf"; path = "Sounds/Suspense Accents 07.caf"; sourceTree = "<group>"; };
-		4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground.png; sourceTree = "<group>"; };
-		4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VlKeynrPad.xib; sourceTree = SOURCE_ROOT; };
-		4064AC081A17D8AF003ABB0A /* SoftMatt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SoftMatt.mp3; sourceTree = "<group>"; };
 		4064AC101A18CD15003ABB0A /* globeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeIcon.png; sourceTree = "<group>"; };
-		40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VlKeynrSound.swift; sourceTree = "<group>"; };
-		40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = ../VlKeynrButton.swift; sourceTree = "<group>"; };
+		40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrSound.swift; path = VlKeynrPad/VlKeynrSound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E4329821A1BDAB200D019DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4329861A1BDAB200D019DD /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EABA0381A176AFA00E9842F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -122,12 +146,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E43294A1A1BD70300D019DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E43294B1A1BD70300D019DD /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E43295F1A1BD70400D019DD /* VlKeynr Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2E4329621A1BD70400D019DD /* Interface.storyboard */,
+				2E4329641A1BD70400D019DD /* Images.xcassets */,
+				2E4329601A1BD70400D019DD /* Supporting Files */,
+			);
+			path = "VlKeynr Watch App";
+			sourceTree = "<group>";
+		};
+		2E4329601A1BD70400D019DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E4329611A1BD70400D019DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E4329871A1BDAB200D019DD /* VlKeynr WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E43298B1A1BDAB200D019DD /* InterfaceController.swift */,
+				2E43298D1A1BDAB200D019DD /* NotificationController.swift */,
+				2E43298F1A1BDAB200D019DD /* Images.xcassets */,
+				2E4329881A1BDAB200D019DD /* Supporting Files */,
+			);
+			path = "VlKeynr WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2E4329881A1BDAB200D019DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E4329891A1BDAB200D019DD /* Info.plist */,
+				2E43298A1A1BDAB200D019DD /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E53B1691A18E55F0026E154 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */,
+				2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */,
+				40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		2EABA0321A176AFA00E9842F = {
 			isa = PBXGroup;
 			children = (
 				2EABA03D1A176AFA00E9842F /* VlKeynr */,
 				2EABA0651A176C4300E9842F /* VlKeynrPad */,
+				2E53B1691A18E55F0026E154 /* Common */,
 				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
+				2E43295F1A1BD70400D019DD /* VlKeynr Watch App */,
+				2E4329871A1BDAB200D019DD /* VlKeynr WatchKit Extension */,
+				2E362E3A1A1BDE3A00D6968B /* Assets */,
+				2E43294A1A1BD70300D019DD /* Frameworks */,
 				2EABA03C1A176AFA00E9842F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +223,8 @@
 				2EABA03B1A176AFA00E9842F /* VlKeynr.app */,
 				2EABA0501A176AFA00E9842F /* VlKeynrTests.xctest */,
 				2EABA0641A176C4300E9842F /* VlKeynrPad.appex */,
+				2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */,
+				2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,10 +234,9 @@
 			children = (
 				2EABA0401A176AFA00E9842F /* AppDelegate.swift */,
 				2EABA0421A176AFA00E9842F /* ViewController.swift */,
-				2EABA0441A176AFA00E9842F /* Main.storyboard */,
 				2EABA0471A176AFA00E9842F /* Images.xcassets */,
-				2EABA0491A176AFA00E9842F /* LaunchScreen.xib */,
 				2EABA03E1A176AFA00E9842F /* Supporting Files */,
+				2E53B1781A18E7D90026E154 /* Main.storyboard */,
 			);
 			path = VlKeynr;
 			sourceTree = "<group>";
@@ -183,13 +269,8 @@
 		2EABA0651A176C4300E9842F /* VlKeynrPad */ = {
 			isa = PBXGroup;
 			children = (
-				4064AC061A17CCC7003ABB0A /* VlKeynrPad.xib */,
 				4064AC101A18CD15003ABB0A /* globeIcon.png */,
-				2EABA0711A176D7C00E9842F /* Sounds */,
 				2EABA0681A176C4300E9842F /* KeyboardViewController.swift */,
-				4064AC041A17CB14003ABB0A /* BonanzaButtonBackground.png */,
-				40A8A0BD1A17AA4E00FC9B79 /* VlKeynrButton.swift */,
-				40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */,
 				2EABA0661A176C4300E9842F /* Supporting Files */,
 			);
 			path = VlKeynrPad;
@@ -203,24 +284,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2EABA0711A176D7C00E9842F /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				4064AC081A17D8AF003ABB0A /* SoftMatt.mp3 */,
-				2EABA0721A176DAE00E9842F /* Suspense Accents 01.caf */,
-				2EABA0731A176DAE00E9842F /* Suspense Accents 02.caf */,
-				2EABA0741A176DAE00E9842F /* Suspense Accents 03.caf */,
-				2EABA0751A176DAE00E9842F /* Suspense Accents 04.caf */,
-				2EABA0761A176DAE00E9842F /* Suspense Accents 05.caf */,
-				2EABA0771A176DAE00E9842F /* Suspense Accents 06.caf */,
-				2EABA0781A176DAE00E9842F /* Suspense Accents 07.caf */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2E4329841A1BDAB200D019DD /* VlKeynr WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4329A41A1BDAB300D019DD /* Build configuration list for PBXNativeTarget "VlKeynr WatchKit Extension" */;
+			buildPhases = (
+				2E4329811A1BDAB200D019DD /* Sources */,
+				2E4329821A1BDAB200D019DD /* Frameworks */,
+				2E4329831A1BDAB200D019DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4329961A1BDAB300D019DD /* PBXTargetDependency */,
+			);
+			name = "VlKeynr WatchKit Extension";
+			productName = "VlKeynr WatchKit Extension";
+			productReference = 2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		2E4329921A1BDAB300D019DD /* VlKeynr Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4329A11A1BDAB300D019DD /* Build configuration list for PBXNativeTarget "VlKeynr Watch App" */;
+			buildPhases = (
+				2E4329911A1BDAB300D019DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VlKeynr Watch App";
+			productName = "VlKeynr Watch App";
+			productReference = 2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		2EABA03A1A176AFA00E9842F /* VlKeynr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EABA05A1A176AFA00E9842F /* Build configuration list for PBXNativeTarget "VlKeynr" */;
@@ -234,6 +333,7 @@
 			);
 			dependencies = (
 				2EABA06B1A176C4300E9842F /* PBXTargetDependency */,
+				2E43299F1A1BDAB300D019DD /* PBXTargetDependency */,
 			);
 			name = VlKeynr;
 			productName = VlKeynr;
@@ -284,6 +384,12 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Michał Kałużny";
 				TargetAttributes = {
+					2E4329841A1BDAB200D019DD = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2E4329921A1BDAB300D019DD = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					2EABA03A1A176AFA00E9842F = {
 						CreatedOnToolsVersion = 6.1;
 					};
@@ -312,25 +418,39 @@
 				2EABA03A1A176AFA00E9842F /* VlKeynr */,
 				2EABA04F1A176AFA00E9842F /* VlKeynrTests */,
 				2EABA0631A176C4300E9842F /* VlKeynrPad */,
+				2E4329841A1BDAB200D019DD /* VlKeynr WatchKit Extension */,
+				2E4329921A1BDAB300D019DD /* VlKeynr Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E4329831A1BDAB200D019DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4329901A1BDAB200D019DD /* Images.xcassets in Resources */,
+				2E362E3C1A1BDE4400D6968B /* Assets in Resources */,
+				2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4329911A1BDAB300D019DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E362E3E1A1BDE4500D6968B /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EABA0391A176AFA00E9842F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EABA07F1A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
-				2EABA0461A176AFA00E9842F /* Main.storyboard in Resources */,
-				2EABA04B1A176AFA00E9842F /* LaunchScreen.xib in Resources */,
-				2EABA0851A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
-				2EABA0811A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
+				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
+				2E362E3B1A1BDE3A00D6968B /* Assets in Resources */,
+				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
 				2EABA0481A176AFA00E9842F /* Images.xcassets in Resources */,
-				2EABA07D1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
-				2EABA0831A176DAE00E9842F /* Suspense Accents 06.caf in Resources */,
-				2EABA07B1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
-				2EABA0791A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,28 +465,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EABA0841A176DAE00E9842F /* Suspense Accents 06.caf in Resources */,
+				2E362E411A1BDE5E00D6968B /* VlKeynrPad.xib in Resources */,
 				4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */,
-				2EABA0821A176DAE00E9842F /* Suspense Accents 05.caf in Resources */,
-				4064AC091A17D8AF003ABB0A /* SoftMatt.mp3 in Resources */,
-				2EABA0861A176DAE00E9842F /* Suspense Accents 07.caf in Resources */,
-				4064AC071A17CCC7003ABB0A /* VlKeynrPad.xib in Resources */,
-				2EABA07E1A176DAE00E9842F /* Suspense Accents 03.caf in Resources */,
-				4064AC051A17CB14003ABB0A /* BonanzaButtonBackground.png in Resources */,
-				2EABA07C1A176DAE00E9842F /* Suspense Accents 02.caf in Resources */,
-				2EABA0801A176DAE00E9842F /* Suspense Accents 04.caf in Resources */,
-				2EABA07A1A176DAE00E9842F /* Suspense Accents 01.caf in Resources */,
+				2E362E3D1A1BDE4400D6968B /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E4329811A1BDAB200D019DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */,
+				2E362E401A1BDE5700D6968B /* VlKeynrButton.swift in Sources */,
+				2E43298E1A1BDAB200D019DD /* NotificationController.swift in Sources */,
+				2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2EABA0371A176AFA00E9842F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */,
 				2EABA0431A176AFA00E9842F /* ViewController.swift in Sources */,
+				2E53B17A1A18E8780026E154 /* KeyboardViewController.swift in Sources */,
+				2E53B1751A18E5980026E154 /* VlKeynrSound.swift in Sources */,
 				2EABA0411A176AFA00E9842F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +510,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */,
-				40A8A0BE1A17AA4E00FC9B79 /* VlKeynrButton.swift in Sources */,
+				2E362E3F1A1BDE5600D6968B /* VlKeynrButton.swift in Sources */,
 				2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +518,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2E4329961A1BDAB300D019DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4329921A1BDAB300D019DD /* VlKeynr Watch App */;
+			targetProxy = 2E4329951A1BDAB300D019DD /* PBXContainerItemProxy */;
+		};
+		2E43299F1A1BDAB300D019DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4329841A1BDAB200D019DD /* VlKeynr WatchKit Extension */;
+			targetProxy = 2E43299E1A1BDAB300D019DD /* PBXContainerItemProxy */;
+		};
 		2EABA0521A176AFA00E9842F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2EABA03A1A176AFA00E9842F /* VlKeynr */;
@@ -404,26 +540,67 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		2EABA0441A176AFA00E9842F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EABA0451A176AFA00E9842F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2EABA0491A176AFA00E9842F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2EABA04A1A176AFA00E9842F /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		2E4329A21A1BDAB300D019DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = VlKeynr_WatchKit_Extension;
+				INFOPLIST_FILE = "VlKeynr Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		2E4329A31A1BDAB300D019DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = VlKeynr_WatchKit_Extension;
+				INFOPLIST_FILE = "VlKeynr Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		2E4329A51A1BDAB300D019DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VlKeynr WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2E4329A61A1BDAB300D019DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "VlKeynr WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		2EABA0581A176AFA00E9842F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -586,6 +763,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E4329A11A1BDAB300D019DD /* Build configuration list for PBXNativeTarget "VlKeynr Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4329A21A1BDAB300D019DD /* Debug */,
+				2E4329A31A1BDAB300D019DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4329A41A1BDAB300D019DD /* Build configuration list for PBXNativeTarget "VlKeynr WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4329A51A1BDAB300D019DD /* Debug */,
+				2E4329A61A1BDAB300D019DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2EABA0361A176AFA00E9842F /* Build configuration list for PBXProject "VlKeynr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
