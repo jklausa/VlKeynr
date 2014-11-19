@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--VlKeynr-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="VlKeynr_Watch_App" customModuleProvider="target">
+                <controller title="VlKeynr" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="VlKeynr_Watch_App" customModuleProvider="target">
                     <items>
                         <group height="1" alignment="left" layout="vertical" hasDetent="YES" id="fn0-sz-hvO" userLabel="main group">
                             <items>
