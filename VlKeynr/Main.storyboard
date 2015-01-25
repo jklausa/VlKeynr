@@ -19,6 +19,7 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-56-lv9">
                                 <rect key="frame" x="0.0" y="322" width="414" height="414"/>
+                                <color key="backgroundColor" red="0.13936574835526316" green="0.18197471217105263" blue="0.20515522203947367" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9Qz-56-lv9" secondAttribute="height" multiplier="1:1" id="mdS-lj-JNZ"/>
                                 </constraints>
@@ -26,23 +27,33 @@
                                     <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-hn-qh9">
-                                <rect key="frame" x="0.0" y="-128" width="414" height="450"/>
+                            <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-hn-qh9">
+                                <rect key="frame" x="46" y="0.0" width="322" height="322"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jfZ-hn-qh9" secondAttribute="height" multiplier="1:1" id="bzT-l9-qtu"/>
+                                </constraints>
                                 <state key="normal" image="BonanzaLogo.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.1215686275" green="0.1529411765" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1215686275" green="0.1529411765" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jfZ-hn-qh9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leading" id="ADU-oF-hLV"/>
+                            <constraint firstAttribute="centerX" secondItem="jfZ-hn-qh9" secondAttribute="centerX" id="EI7-Lq-Bj7"/>
                             <constraint firstItem="9Qz-56-lv9" firstAttribute="top" secondItem="jfZ-hn-qh9" secondAttribute="bottom" id="G5f-En-lyB"/>
                             <constraint firstAttribute="trailing" secondItem="jfZ-hn-qh9" secondAttribute="trailing" id="I5g-OZ-hJd"/>
+                            <constraint firstItem="jfZ-hn-qh9" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" id="f0D-pA-W6q"/>
                             <constraint firstAttribute="trailing" secondItem="9Qz-56-lv9" secondAttribute="trailing" id="fxZ-tr-7gM"/>
                             <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="9Qz-56-lv9" secondAttribute="bottom" id="jjv-9V-iD9"/>
                             <constraint firstItem="9Qz-56-lv9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leading" id="rPW-ec-JgA"/>
-                            <constraint firstItem="9Qz-56-lv9" firstAttribute="top" secondItem="jfZ-hn-qh9" secondAttribute="bottom" id="ssf-SH-ypd"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ADU-oF-hLV"/>
+                                <exclude reference="I5g-OZ-hJd"/>
+                            </mask>
+                        </variation>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
