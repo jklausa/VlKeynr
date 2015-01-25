@@ -11,10 +11,15 @@ import AVFoundation
 
 class KeyboardViewController: UIInputViewController {
 
+    let bonanzaBgColor = UIColor(red:0.14118, green:0.18039, blue:0.20392, alpha:1)
+
+    var isActuallyAKeyboard: Bool = true {
+      didSet {
+        setupGlobeAndBg()
+      }
+    }
+
     ///pragma mark - buttons
-    let nextKeyboardButton = UIButton.buttonWithType(.System) as UIButton
-
-
     @IBOutlet weak var button1: VlKeynrButton!
     @IBOutlet weak var button2: VlKeynrButton!
     @IBOutlet weak var button3: VlKeynrButton!
@@ -24,8 +29,10 @@ class KeyboardViewController: UIInputViewController {
     @IBOutlet weak var button7: VlKeynrButton!
     @IBOutlet weak var button8: VlKeynrButton!
     @IBOutlet weak var buttonRandom: VlKeynrButton!
+    @IBOutlet weak var globeButton: UIButton!
 
     var audioPlayer: AVAudioPlayer?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +41,7 @@ class KeyboardViewController: UIInputViewController {
         view = objects[0] as UIView
 
         setupSoundButtons()
+        setupGlobeAndBg()
     }
 
     func setupSoundButtons() {
@@ -46,6 +54,18 @@ class KeyboardViewController: UIInputViewController {
         button7.associatedSound = .SuspenseAccent7
         button8.associatedSound = .SoftMatt
         buttonRandom.associatedSound = VlKeynrSound(rawValue: Int(arc4random_uniform(9)))
+    }
+
+    func setupGlobeAndBg() {
+      if let view = view {
+        if isActuallyAKeyboard {
+          view.backgroundColor = bonanzaBgColor
+          globeButton.hidden = false
+        } else {
+          view.backgroundColor = UIColor.clearColor()
+          globeButton.hidden = true
+        }
+      }
     }
 
     @IBAction func playSound(sender: VlKeynrButton) {
@@ -68,18 +88,6 @@ class KeyboardViewController: UIInputViewController {
         advanceToNextInputMode()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated
-    }
-
-    override func textWillChange(textInput: UITextInput) {
-        // The app is about to change the document's contents. Perform any preparation here.
-    }
-
-    override func textDidChange(textInput: UITextInput) {
-        // The app has just changed the document's contents, the document context has been updated.
-    }
 }
 
 

@@ -82,7 +82,6 @@
 		2E362E961A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
 		2E4329861A1BDAB200D019DD /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E43294B1A1BD70300D019DD /* WatchKit.framework */; };
 		2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298B1A1BDAB200D019DD /* InterfaceController.swift */; };
-		2E43298E1A1BDAB200D019DD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298D1A1BDAB200D019DD /* NotificationController.swift */; };
 		2E4329901A1BDAB200D019DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43298F1A1BDAB200D019DD /* Images.xcassets */; };
 		2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */; };
 		2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -96,7 +95,32 @@
 		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2EB225201A1BFA59005A6E10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329621A1BD70400D019DD /* Interface.storyboard */; };
 		4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
+		4069B2371A7474240098995C /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
+		4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
+		4069B2391A74742A0098995C /* BonanzaButtonBackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */; };
+		4069B23A1A74742F0098995C /* BonanzaButtonBackground3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E491A1BF29B00D6968B /* BonanzaButtonBackground3.png */; };
+		4069B23B1A7474350098995C /* BonanzaButtonBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4A1A1BF29B00D6968B /* BonanzaButtonBackground4.png */; };
+		4069B23C1A74743B0098995C /* BonanzaButtonBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4B1A1BF29B00D6968B /* BonanzaButtonBackground5.png */; };
+		4069B23D1A74743E0098995C /* BonanzaButtonBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4C1A1BF29B00D6968B /* BonanzaButtonBackground6.png */; };
+		4069B23E1A7474470098995C /* SoftMatt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E4F1A1BF29B00D6968B /* SoftMatt.mp3 */; };
+		4069B23F1A74744A0098995C /* Suspense Accents 01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E501A1BF29B00D6968B /* Suspense Accents 01.caf */; };
+		4069B2401A74744D0098995C /* Suspense Accents 02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E511A1BF29B00D6968B /* Suspense Accents 02.caf */; };
+		4069B2411A74744F0098995C /* Suspense Accents 03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E521A1BF29B00D6968B /* Suspense Accents 03.caf */; };
+		4069B2421A7474520098995C /* Suspense Accents 04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E531A1BF29B00D6968B /* Suspense Accents 04.caf */; };
+		4069B2431A7474540098995C /* Suspense Accents 05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E541A1BF29B00D6968B /* Suspense Accents 05.caf */; };
+		4069B2441A7474570098995C /* Suspense Accents 06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E551A1BF29B00D6968B /* Suspense Accents 06.caf */; };
+		4069B2451A74745A0098995C /* Suspense Accents 07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E561A1BF29B00D6968B /* Suspense Accents 07.caf */; };
 		40A8A0BC1A17A98B00FC9B79 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
+		40B30EC71A746F0700ACAE0B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
+		40B30EC81A746F1100ACAE0B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
+		40B30EC91A746F2600ACAE0B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
+		40F068791A746ABF007D9F6D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F068781A746ABF007D9F6D /* NotificationCenter.framework */; };
+		40F0687E1A746ABF007D9F6D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F0687D1A746ABF007D9F6D /* TodayViewController.swift */; };
+		40F068801A746ABF007D9F6D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F0687F1A746ABF007D9F6D /* MainInterface.storyboard */; };
+		40F068831A746ABF007D9F6D /* VlTodaynr.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40F068771A746ABF007D9F6D /* VlTodaynr.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40F068871A746D16007D9F6D /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
+		40F1DF781A7550A9003F253E /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
+		40F1DF791A7550B0003F253E /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +152,13 @@
 			remoteGlobalIDString = 2EABA0631A176C4300E9842F;
 			remoteInfo = VlKeynrPad;
 		};
+		40F068811A746ABF007D9F6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F068761A746ABF007D9F6D;
+			remoteInfo = VlTodaynr;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -139,6 +170,7 @@
 			files = (
 				2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */,
 				2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */,
+				40F068831A746ABF007D9F6D /* VlTodaynr.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,7 +207,6 @@
 		2E4329891A1BDAB200D019DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E43298A1A1BDAB200D019DD /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
 		2E43298B1A1BDAB200D019DD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		2E43298D1A1BDAB200D019DD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2E43298F1A1BDAB200D019DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VlKeynr Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E53B1781A18E7D90026E154 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -191,6 +222,11 @@
 		2EABA0681A176C4300E9842F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		4064AC101A18CD15003ABB0A /* globeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeIcon.png; sourceTree = "<group>"; };
 		40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrSound.swift; path = VlKeynrPad/VlKeynrSound.swift; sourceTree = "<group>"; };
+		40F068771A746ABF007D9F6D /* VlTodaynr.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlTodaynr.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F068781A746ABF007D9F6D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		40F0687C1A746ABF007D9F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F0687D1A746ABF007D9F6D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		40F0687F1A746ABF007D9F6D /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +256,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F068741A746ABF007D9F6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F068791A746ABF007D9F6D /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				2E43294B1A1BD70300D019DD /* WatchKit.framework */,
+				40F068781A746ABF007D9F6D /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -296,7 +341,6 @@
 			isa = PBXGroup;
 			children = (
 				2E43298B1A1BDAB200D019DD /* InterfaceController.swift */,
-				2E43298D1A1BDAB200D019DD /* NotificationController.swift */,
 				2E43298F1A1BDAB200D019DD /* Images.xcassets */,
 				2E4329881A1BDAB200D019DD /* Supporting Files */,
 				2E0C92581A1D3BCB00C2BB9A /* TestButton.swift */,
@@ -332,6 +376,7 @@
 				2EABA0531A176AFA00E9842F /* VlKeynrTests */,
 				2E43295F1A1BD70400D019DD /* VlKeynr Watch App */,
 				2E4329871A1BDAB200D019DD /* VlKeynr WatchKit Extension */,
+				40F0687A1A746ABF007D9F6D /* VlTodaynr */,
 				2E43294A1A1BD70300D019DD /* Frameworks */,
 				2EABA03C1A176AFA00E9842F /* Products */,
 				2E362E441A1BF29B00D6968B /* Assets */,
@@ -346,6 +391,7 @@
 				2EABA0641A176C4300E9842F /* VlKeynrPad.appex */,
 				2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */,
 				2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */,
+				40F068771A746ABF007D9F6D /* VlTodaynr.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -405,6 +451,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		40F0687A1A746ABF007D9F6D /* VlTodaynr */ = {
+			isa = PBXGroup;
+			children = (
+				40F0687D1A746ABF007D9F6D /* TodayViewController.swift */,
+				40F0687F1A746ABF007D9F6D /* MainInterface.storyboard */,
+				40F0687B1A746ABF007D9F6D /* Supporting Files */,
+			);
+			path = VlTodaynr;
+			sourceTree = "<group>";
+		};
+		40F0687B1A746ABF007D9F6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40F0687C1A746ABF007D9F6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -455,6 +519,7 @@
 			dependencies = (
 				2EABA06B1A176C4300E9842F /* PBXTargetDependency */,
 				2E43299F1A1BDAB300D019DD /* PBXTargetDependency */,
+				40F068821A746ABF007D9F6D /* PBXTargetDependency */,
 			);
 			name = VlKeynr;
 			productName = VlKeynr;
@@ -496,6 +561,23 @@
 			productReference = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		40F068761A746ABF007D9F6D /* VlTodaynr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F068861A746AC0007D9F6D /* Build configuration list for PBXNativeTarget "VlTodaynr" */;
+			buildPhases = (
+				40F068731A746ABF007D9F6D /* Sources */,
+				40F068741A746ABF007D9F6D /* Frameworks */,
+				40F068751A746ABF007D9F6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VlTodaynr;
+			productName = VlTodaynr;
+			productReference = 40F068771A746ABF007D9F6D /* VlTodaynr.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -521,6 +603,9 @@
 					2EABA0631A176C4300E9842F = {
 						CreatedOnToolsVersion = 6.1;
 					};
+					40F068761A746ABF007D9F6D = {
+						CreatedOnToolsVersion = 6.2;
+					};
 				};
 			};
 			buildConfigurationList = 2EABA0361A176AFA00E9842F /* Build configuration list for PBXProject "VlKeynr" */;
@@ -541,6 +626,7 @@
 				2EABA0631A176C4300E9842F /* VlKeynrPad */,
 				2E4329841A1BDAB200D019DD /* VlKeynr WatchKit Extension */,
 				2E4329921A1BDAB300D019DD /* VlKeynr Watch App */,
+				40F068761A746ABF007D9F6D /* VlTodaynr */,
 			);
 		};
 /* End PBXProject section */
@@ -607,6 +693,7 @@
 				2E362E5F1A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E362E571A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
 				2E362E8B1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
+				40F1DF781A7550A9003F253E /* globeIcon.png in Resources */,
 				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
 				2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
@@ -654,6 +741,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40F068751A746ABF007D9F6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4069B23B1A7474350098995C /* BonanzaButtonBackground4.png in Resources */,
+				4069B23A1A74742F0098995C /* BonanzaButtonBackground3.png in Resources */,
+				4069B2391A74742A0098995C /* BonanzaButtonBackground2.png in Resources */,
+				4069B2451A74745A0098995C /* Suspense Accents 07.caf in Resources */,
+				4069B23F1A74744A0098995C /* Suspense Accents 01.caf in Resources */,
+				4069B2371A7474240098995C /* BonanzaButtonBackground0.png in Resources */,
+				4069B2421A7474520098995C /* Suspense Accents 04.caf in Resources */,
+				4069B23E1A7474470098995C /* SoftMatt.mp3 in Resources */,
+				40F068801A746ABF007D9F6D /* MainInterface.storyboard in Resources */,
+				4069B23C1A74743B0098995C /* BonanzaButtonBackground5.png in Resources */,
+				4069B2401A74744D0098995C /* Suspense Accents 02.caf in Resources */,
+				4069B2441A7474570098995C /* Suspense Accents 06.caf in Resources */,
+				40F1DF791A7550B0003F253E /* globeIcon.png in Resources */,
+				4069B2431A7474540098995C /* Suspense Accents 05.caf in Resources */,
+				4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */,
+				4069B2411A74744F0098995C /* Suspense Accents 03.caf in Resources */,
+				4069B23D1A74743E0098995C /* BonanzaButtonBackground6.png in Resources */,
+				40F068871A746D16007D9F6D /* VlKeynrPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -664,7 +776,6 @@
 				2E0C92591A1D3BCB00C2BB9A /* TestButton.swift in Sources */,
 				2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */,
 				2E362E401A1BDE5700D6968B /* VlKeynrButton.swift in Sources */,
-				2E43298E1A1BDAB200D019DD /* NotificationController.swift in Sources */,
 				2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -699,6 +810,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40F068731A746ABF007D9F6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F0687E1A746ABF007D9F6D /* TodayViewController.swift in Sources */,
+				40B30EC91A746F2600ACAE0B /* VlKeynrSound.swift in Sources */,
+				40B30EC81A746F1100ACAE0B /* VlKeynrButton.swift in Sources */,
+				40B30EC71A746F0700ACAE0B /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -721,6 +843,11 @@
 			isa = PBXTargetDependency;
 			target = 2EABA0631A176C4300E9842F /* VlKeynrPad */;
 			targetProxy = 2EABA06A1A176C4300E9842F /* PBXContainerItemProxy */;
+		};
+		40F068821A746ABF007D9F6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F068761A746ABF007D9F6D /* VlTodaynr */;
+			targetProxy = 40F068811A746ABF007D9F6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -819,7 +946,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -856,7 +983,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -944,6 +1071,33 @@
 			};
 			name = Release;
 		};
+		40F068841A746AC0007D9F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VlTodaynr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40F068851A746AC0007D9F6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = VlTodaynr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -997,6 +1151,15 @@
 			buildConfigurations = (
 				2EABA06D1A176C4300E9842F /* Debug */,
 				2EABA06E1A176C4300E9842F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F068861A746AC0007D9F6D /* Build configuration list for PBXNativeTarget "VlTodaynr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F068841A746AC0007D9F6D /* Debug */,
+				40F068851A746AC0007D9F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
