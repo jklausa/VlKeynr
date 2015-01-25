@@ -27,6 +27,14 @@
                                     <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
                                 </connections>
                             </containerView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="BonanzaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-PO-w6Q">
+                                <rect key="frame" x="226" y="49" width="478" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="478" id="G4h-Ts-ZJM"/>
+                                    <constraint firstAttribute="width" secondItem="oS4-PO-w6Q" secondAttribute="height" multiplier="478:137" id="Q8r-ac-rTK"/>
+                                    <constraint firstAttribute="height" constant="137" id="YeV-JK-jer"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F8-fG-Zgs">
                                 <rect key="frame" x="16" y="35" width="166" height="166"/>
                                 <constraints>
@@ -51,17 +59,9 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="6oV-Es-O8Y"/>
+                                    <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="eVj-6E-GbW"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="BonanzaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-PO-w6Q">
-                                <rect key="frame" x="226" y="49" width="478" height="137"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="478" id="G4h-Ts-ZJM"/>
-                                    <constraint firstAttribute="width" secondItem="oS4-PO-w6Q" secondAttribute="height" multiplier="478:137" id="Q8r-ac-rTK"/>
-                                    <constraint firstAttribute="height" constant="137" id="YeV-JK-jer"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.14117647058823529" green="0.17647058823529413" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -86,11 +86,11 @@
                             <mask key="constraints">
                                 <exclude reference="cmU-gg-UQ8"/>
                                 <exclude reference="zAr-Gr-4yD"/>
-                                <exclude reference="rTD-Hz-Lv7"/>
                                 <exclude reference="UjR-TL-OE4"/>
                                 <exclude reference="Vqc-WZ-joJ"/>
                                 <exclude reference="bhq-lb-Gy2"/>
                                 <exclude reference="qSU-e9-JNC"/>
+                                <exclude reference="rTD-Hz-Lv7"/>
                             </mask>
                         </variation>
                     </view>

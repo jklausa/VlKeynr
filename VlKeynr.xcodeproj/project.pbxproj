@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E0926BE1A756EF300CD933E /* RelayFM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0926BD1A756EF300CD933E /* RelayFM.png */; };
 		2E0926C21A7572BD00CD933E /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0926C11A7572BD00CD933E /* Main~ipad.storyboard */; };
-		2E0C92591A1D3BCB00C2BB9A /* TestButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C92581A1D3BCB00C2BB9A /* TestButton.swift */; };
 		2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 		2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
@@ -180,7 +179,6 @@
 /* Begin PBXFileReference section */
 		2E0926BD1A756EF300CD933E /* RelayFM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RelayFM.png; sourceTree = "<group>"; };
 		2E0926C11A7572BD00CD933E /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
-		2E0C92581A1D3BCB00C2BB9A /* TestButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestButton.swift; sourceTree = "<group>"; };
 		2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = VlKeynrPad/VlKeynrButton.swift; sourceTree = "<group>"; };
 		2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VlKeynrPad.xib; path = VlKeynrPad/VlKeynrPad.xib; sourceTree = "<group>"; };
 		2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground0.png; sourceTree = "<group>"; };
@@ -343,7 +341,6 @@
 				2E43298B1A1BDAB200D019DD /* InterfaceController.swift */,
 				2E43298F1A1BDAB200D019DD /* Images.xcassets */,
 				2E4329881A1BDAB200D019DD /* Supporting Files */,
-				2E0C92581A1D3BCB00C2BB9A /* TestButton.swift */,
 			);
 			path = "VlKeynr WatchKit Extension";
 			sourceTree = "<group>";
@@ -773,7 +770,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0C92591A1D3BCB00C2BB9A /* TestButton.swift in Sources */,
 				2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */,
 				2E362E401A1BDE5700D6968B /* VlKeynrButton.swift in Sources */,
 				2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */,

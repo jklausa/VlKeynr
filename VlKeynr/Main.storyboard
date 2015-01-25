@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -37,7 +38,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="n6G-jq-cch"/>
+                                    <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="BGV-jZ-sqV"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="BonanzaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-PO-w6Q">
