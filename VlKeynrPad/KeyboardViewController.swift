@@ -11,7 +11,15 @@ import AVFoundation
 
 class KeyboardViewController: UIInputViewController {
 
+    var isGlobeKeyHidden: Bool = false {
+      didSet {
+        if let globeButton = globeButton {
+          globeButton.hidden = isGlobeKeyHidden
+        }
+      }
+    }
 
+    ///pragma mark - buttons
     @IBOutlet weak var button1: VlKeynrButton!
     @IBOutlet weak var button2: VlKeynrButton!
     @IBOutlet weak var button3: VlKeynrButton!
@@ -21,8 +29,10 @@ class KeyboardViewController: UIInputViewController {
     @IBOutlet weak var button7: VlKeynrButton!
     @IBOutlet weak var button8: VlKeynrButton!
     @IBOutlet weak var buttonRandom: VlKeynrButton!
+    @IBOutlet weak var globeButton: UIButton!
 
     var audioPlayer: AVAudioPlayer?
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,6 +41,7 @@ class KeyboardViewController: UIInputViewController {
         view = objects[0] as UIView
 
         setupSoundButtons()
+        globeButton.hidden = isGlobeKeyHidden
     }
 
     func setupSoundButtons() {

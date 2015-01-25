@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6221" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -16,6 +16,7 @@
                 <outlet property="button7" destination="FE8-D1-kZ2" id="x4V-gV-I8D"/>
                 <outlet property="button8" destination="pyk-NM-FCd" id="avi-69-iU3"/>
                 <outlet property="buttonRandom" destination="hbR-kB-1Sd" id="m8P-dO-QCN"/>
+                <outlet property="globeButton" destination="WIZ-1v-4EN" id="Mlh-JH-GbR"/>
                 <outlet property="view" destination="iN0-l3-epB" id="lh8-de-xLs"/>
             </connections>
         </placeholder>
@@ -24,8 +25,8 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akL-Go-kXD" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="12" y="10" width="187" height="187"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akL-Go-kXD" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="187" height="187"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" id="66j-oI-KTS"/>
                         <constraint firstAttribute="width" secondItem="akL-Go-kXD" secondAttribute="height" multiplier="1:1" id="jtP-Ue-D2Y"/>
@@ -44,8 +45,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="FfY-sF-BUO"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZl-9M-hrl" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="208" y="10" width="186" height="187"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZl-9M-hrl" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="207" y="10" width="186" height="187"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" id="osL-98-cny"/>
                         <constraint firstAttribute="width" secondItem="hZl-9M-hrl" secondAttribute="height" multiplier="1:1" id="zq1-en-IIN"/>
@@ -64,8 +65,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="ALq-PT-Obi"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-nE-pwV" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="403" y="10" width="187" height="187"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd8-nE-pwV" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="402" y="10" width="187" height="187"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" multiplier="1:1" id="Ezs-ZN-GiI"/>
                         <constraint firstAttribute="width" secondItem="Nd8-nE-pwV" secondAttribute="height" id="cdP-ds-QCj"/>
@@ -84,8 +85,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="nOc-6l-vtL"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1E-Qt-m82" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="12" y="207" width="186" height="186"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1E-Qt-m82" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="10" y="207" width="187" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" multiplier="1:1" id="g4b-ml-pfg"/>
                         <constraint firstAttribute="width" secondItem="c1E-Qt-m82" secondAttribute="height" id="mgt-OR-RNg"/>
@@ -104,8 +105,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="Beu-Bm-5G4"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbR-kB-1Sd" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="208" y="207" width="186" height="186"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbR-kB-1Sd" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="207" y="207" width="186" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" multiplier="1:1" id="Kzz-xm-6ud"/>
                         <constraint firstAttribute="width" secondItem="hbR-kB-1Sd" secondAttribute="height" id="LAT-Vr-SzJ"/>
@@ -124,8 +125,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="eYF-YI-C96"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTa-I6-G6M" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="404" y="207" width="186" height="186"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTa-I6-G6M" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="403" y="207" width="187" height="186"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" multiplier="1:1" id="HNw-l5-nk0"/>
                         <constraint firstAttribute="width" secondItem="fTa-I6-G6M" secondAttribute="height" id="MW4-gQ-ASh"/>
@@ -197,8 +198,8 @@
                         <action selector="playSound:" destination="-1" eventType="touchUpInside" id="B6c-GO-45U"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-D1-kZ2" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
-                    <rect key="frame" x="207" y="404" width="186" height="186"/>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE8-D1-kZ2" customClass="VlKeynrButton" customModule="VlKeynr" customModuleProvider="target">
+                    <rect key="frame" x="207" y="403" width="186" height="187"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" multiplier="1:1" id="4hV-Kz-fqQ"/>
                         <constraint firstAttribute="width" secondItem="FE8-D1-kZ2" secondAttribute="height" id="e3h-eH-0QF"/>
@@ -282,13 +283,13 @@
                     <exclude reference="Rht-Fq-zTB"/>
                     <exclude reference="qTp-BK-BdN"/>
                     <exclude reference="wb6-6d-vct"/>
-                    <exclude reference="WWa-bV-Sb6"/>
-                    <exclude reference="lar-rJ-qex"/>
                     <exclude reference="Zrs-CZ-DD7"/>
                     <exclude reference="rHW-TY-WKy"/>
+                    <exclude reference="WWa-bV-Sb6"/>
+                    <exclude reference="lar-rJ-qex"/>
+                    <exclude reference="GiB-CV-5Cf"/>
                     <exclude reference="fWr-cU-FZy"/>
                     <exclude reference="kzM-JP-wXQ"/>
-                    <exclude reference="GiB-CV-5Cf"/>
                     <exclude reference="OCD-rW-uLZ"/>
                     <exclude reference="vQO-gI-48c"/>
                 </mask>
