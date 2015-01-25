@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C106a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Igy-T1-nIn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Igy-T1-nIn">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-56-lv9">
-                                <rect key="frame" x="0.0" y="256" width="768" height="768"/>
+                                <rect key="frame" x="4" y="256" width="768" height="768"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9Qz-56-lv9" secondAttribute="height" multiplier="1:1" id="mdS-lj-JNZ"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
+                                    <segue destination="lxU-p5-vtQ" kind="embed" identifier="embedKeyboard" id="d94-Lg-LEv"/>
                                 </connections>
                             </containerView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="BonanzaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-PO-w6Q">
-                                <rect key="frame" x="226" y="49" width="478" height="137"/>
+                                <rect key="frame" x="230" y="49" width="478" height="137"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="478" id="G4h-Ts-ZJM"/>
                                     <constraint firstAttribute="width" secondItem="oS4-PO-w6Q" secondAttribute="height" multiplier="478:137" id="Q8r-ac-rTK"/>
@@ -36,28 +36,14 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F8-fG-Zgs">
-                                <rect key="frame" x="16" y="35" width="166" height="166"/>
+                                <rect key="frame" x="20" y="35" width="166" height="166"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="166" id="2F4-gv-Oaf"/>
                                     <constraint firstAttribute="height" constant="166" id="3uH-J1-m7z"/>
-                                    <constraint firstAttribute="height" constant="166" id="472-eK-dwk"/>
                                     <constraint firstAttribute="width" constant="166" id="AAU-gx-QrX"/>
-                                    <constraint firstAttribute="height" constant="166" id="DNA-3t-bVi"/>
-                                    <constraint firstAttribute="width" secondItem="8F8-fG-Zgs" secondAttribute="height" multiplier="1:1" id="E2F-is-FVo"/>
-                                    <constraint firstAttribute="width" constant="166" id="OIh-UZ-O7W"/>
                                 </constraints>
                                 <state key="normal" image="BonanzaButtonBackground0.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="2F4-gv-Oaf"/>
-                                        <exclude reference="472-eK-dwk"/>
-                                        <exclude reference="DNA-3t-bVi"/>
-                                        <exclude reference="E2F-is-FVo"/>
-                                        <exclude reference="OIh-UZ-O7W"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="eVj-6E-GbW"/>
                                 </connections>
@@ -66,40 +52,22 @@
                         <color key="backgroundColor" red="0.14117647058823529" green="0.17647058823529413" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="8F8-fG-Zgs" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="35" id="HEw-YP-vIS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oS4-PO-w6Q" secondAttribute="trailing" constant="20" id="UjR-TL-OE4"/>
-                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="top" secondItem="8F8-fG-Zgs" secondAttribute="bottom" id="Vqc-WZ-joJ"/>
-                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="20" id="bhq-lb-Gy2"/>
-                            <constraint firstItem="8F8-fG-Zgs" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="29" id="cmU-gg-UQ8"/>
                             <constraint firstItem="oS4-PO-w6Q" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="49" id="eIb-nu-SQv"/>
                             <constraint firstItem="oS4-PO-w6Q" firstAttribute="trailing" secondItem="PrY-B4-s3D" secondAttribute="trailingMargin" constant="-48" id="em3-lo-dz7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9Qz-56-lv9" secondAttribute="trailing" constant="-16" id="fxZ-tr-7gM"/>
                             <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="9Qz-56-lv9" secondAttribute="bottom" id="jjv-9V-iD9"/>
                             <constraint firstItem="9Qz-56-lv9" firstAttribute="width" secondItem="PrY-B4-s3D" secondAttribute="width" id="omR-sG-qN9"/>
-                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="195" id="qSU-e9-JNC"/>
                             <constraint firstItem="9Qz-56-lv9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="-16" id="rPW-ec-JgA"/>
-                            <constraint firstItem="9Qz-56-lv9" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="350" id="rTD-Hz-Lv7"/>
                             <constraint firstItem="8F8-fG-Zgs" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" id="rgQ-b2-oaV"/>
                             <constraint firstItem="oS4-PO-w6Q" firstAttribute="leading" secondItem="8F8-fG-Zgs" secondAttribute="trailing" constant="44" id="shv-0q-aQn"/>
-                            <constraint firstAttribute="centerX" secondItem="8F8-fG-Zgs" secondAttribute="centerX" id="zAr-Gr-4yD"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="cmU-gg-UQ8"/>
-                                <exclude reference="zAr-Gr-4yD"/>
-                                <exclude reference="UjR-TL-OE4"/>
-                                <exclude reference="Vqc-WZ-joJ"/>
-                                <exclude reference="bhq-lb-Gy2"/>
-                                <exclude reference="qSU-e9-JNC"/>
-                                <exclude reference="rTD-Hz-Lv7"/>
-                            </mask>
-                        </variation>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lje-pz-9sr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-172" y="-49"/>
+            <point key="canvasLocation" x="-220.16" y="-83.626666666666665"/>
         </scene>
         <!--Keyboard View Controller-->
         <scene sceneID="3IC-aq-6Pk">
@@ -118,11 +86,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bqy-Za-t98" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="680" y="-49"/>
+            <point key="canvasLocation" x="870.39999999999998" y="-83.626666666666665"/>
         </scene>
     </scenes>
     <resources>
         <image name="BonanzaButtonBackground0.png" width="320" height="320"/>
         <image name="BonanzaLogo.png" width="716" height="210"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>
