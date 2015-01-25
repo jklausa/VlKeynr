@@ -93,6 +93,11 @@
 		2EABA0691A176C4300E9842F /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
 		2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EABA0641A176C4300E9842F /* VlKeynrPad.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2EB225201A1BFA59005A6E10 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329621A1BD70400D019DD /* Interface.storyboard */; };
+		2EDC72131A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
+		2EDC72141A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
+		2EDC72151A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
+		2EDC72161A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
+		2EDC72171A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
 		4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 		4069B2371A7474240098995C /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
 		4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
@@ -218,6 +223,7 @@
 		2EABA0641A176C4300E9842F /* VlKeynrPad.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlKeynrPad.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EABA0671A176C4300E9842F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EABA0681A176C4300E9842F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		2EDC72121A7578F10087B052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4064AC101A18CD15003ABB0A /* globeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globeIcon.png; sourceTree = "<group>"; };
 		40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrSound.swift; path = VlKeynrPad/VlKeynrSound.swift; sourceTree = "<group>"; };
 		40F068771A746ABF007D9F6D /* VlTodaynr.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VlTodaynr.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -396,6 +402,7 @@
 		2EABA03D1A176AFA00E9842F /* VlKeynr */ = {
 			isa = PBXGroup;
 			children = (
+				2EDC72121A7578F10087B052 /* Images.xcassets */,
 				2EABA0401A176AFA00E9842F /* AppDelegate.swift */,
 				2EABA0421A176AFA00E9842F /* ViewController.swift */,
 				2EABA03E1A176AFA00E9842F /* Supporting Files */,
@@ -648,6 +655,7 @@
 				2E362E911A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E362E8D1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
 				2E362E711A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2EDC72151A7578F10087B052 /* Images.xcassets in Resources */,
 				2E362E851A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
 				2E362E611A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */,
@@ -667,6 +675,7 @@
 				2E362E761A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
 				2E362E8A1A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
 				2E362E6E1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
+				2EDC72161A7578F10087B052 /* Images.xcassets in Resources */,
 				2E362E6A1A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
 				2E362E921A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E362E661A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
@@ -697,6 +706,7 @@
 				2E362E6B1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
 				2E362E731A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
 				2E362E7F1A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
+				2EDC72131A7578F10087B052 /* Images.xcassets in Resources */,
 				2E362E771A1BF29B00D6968B /* SoftMatt.mp3 in Resources */,
 				2E362E871A1BF29B00D6968B /* Suspense Accents 04.caf in Resources */,
 				2E362E5B1A1BF29B00D6968B /* BonanzaButtonBackground1.png in Resources */,
@@ -732,6 +742,7 @@
 				2E362E901A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E362E8C1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
 				2E362E701A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
+				2EDC72141A7578F10087B052 /* Images.xcassets in Resources */,
 				2E362E841A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
 				2E362E601A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */,
@@ -757,6 +768,7 @@
 				40F1DF791A7550B0003F253E /* globeIcon.png in Resources */,
 				4069B2431A7474540098995C /* Suspense Accents 05.caf in Resources */,
 				4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */,
+				2EDC72171A7578F10087B052 /* Images.xcassets in Resources */,
 				4069B2411A74744F0098995C /* Suspense Accents 03.caf in Resources */,
 				4069B23D1A74743E0098995C /* BonanzaButtonBackground6.png in Resources */,
 				40F068871A746D16007D9F6D /* VlKeynrPad.xib in Resources */,
@@ -990,6 +1002,7 @@
 		2EABA05B1A176AFA00E9842F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1001,6 +1014,7 @@
 		2EABA05C1A176AFA00E9842F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1046,6 +1060,8 @@
 		2EABA06D1A176C4300E9842F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1060,6 +1076,8 @@
 		2EABA06E1A176C4300E9842F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = VlKeynrPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
