@@ -19,12 +19,12 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Qz-56-lv9">
                                 <rect key="frame" x="0.0" y="322" width="414" height="414"/>
-                                <color key="backgroundColor" red="0.13936574835526316" green="0.18197471217105263" blue="0.20515522203947367" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9Qz-56-lv9" secondAttribute="height" multiplier="1:1" id="mdS-lj-JNZ"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
+                                    <segue destination="lxU-p5-vtQ" kind="embed" identifier="embedKeyboard" id="d94-Lg-LEv"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-hn-qh9">
@@ -73,7 +73,7 @@
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OLk-8e-GVc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                 </viewController>

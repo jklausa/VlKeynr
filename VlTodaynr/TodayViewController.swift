@@ -19,7 +19,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
       if segue.identifier == "embedKeyboard" {
         if let dvc = segue.destinationViewController as? KeyboardViewController {
-          dvc.isGlobeKeyHidden = true
+          dvc.isActuallyAKeyboard = false
         }
       }
     }

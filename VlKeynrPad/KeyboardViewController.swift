@@ -11,11 +11,11 @@ import AVFoundation
 
 class KeyboardViewController: UIInputViewController {
 
-    var isGlobeKeyHidden: Bool = false {
+    let bonanzaBgColor = UIColor(red:0.14118, green:0.18039, blue:0.20392, alpha:1)
+
+    var isActuallyAKeyboard: Bool = true {
       didSet {
-        if let globeButton = globeButton {
-          globeButton.hidden = isGlobeKeyHidden
-        }
+        setupGlobeAndBg()
       }
     }
 
@@ -41,7 +41,7 @@ class KeyboardViewController: UIInputViewController {
         view = objects[0] as UIView
 
         setupSoundButtons()
-        globeButton.hidden = isGlobeKeyHidden
+        setupGlobeAndBg()
     }
 
     func setupSoundButtons() {
@@ -54,6 +54,18 @@ class KeyboardViewController: UIInputViewController {
         button7.associatedSound = .SuspenseAccent7
         button8.associatedSound = .SoftMatt
         buttonRandom.associatedSound = VlKeynrSound(rawValue: Int(arc4random_uniform(9)))
+    }
+
+    func setupGlobeAndBg() {
+      if let view = view {
+        if isActuallyAKeyboard {
+          view.backgroundColor = bonanzaBgColor
+          globeButton.hidden = false
+        } else {
+          view.backgroundColor = UIColor.clearColor()
+          globeButton.hidden = true
+        }
+      }
     }
 
     @IBAction func playSound(sender: VlKeynrButton) {
