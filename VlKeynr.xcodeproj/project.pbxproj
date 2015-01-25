@@ -117,6 +117,8 @@
 		40F068801A746ABF007D9F6D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F0687F1A746ABF007D9F6D /* MainInterface.storyboard */; };
 		40F068831A746ABF007D9F6D /* VlTodaynr.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 40F068771A746ABF007D9F6D /* VlTodaynr.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		40F068871A746D16007D9F6D /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
+		40F1DF781A7550A9003F253E /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
+		40F1DF791A7550B0003F253E /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -683,6 +685,7 @@
 				2E362E5F1A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E362E571A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
 				2E362E8B1A1BF29B00D6968B /* Suspense Accents 05.caf in Resources */,
+				40F1DF781A7550A9003F253E /* globeIcon.png in Resources */,
 				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
 				2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
@@ -747,6 +750,7 @@
 				4069B23C1A74743B0098995C /* BonanzaButtonBackground5.png in Resources */,
 				4069B2401A74744D0098995C /* Suspense Accents 02.caf in Resources */,
 				4069B2441A7474570098995C /* Suspense Accents 06.caf in Resources */,
+				40F1DF791A7550B0003F253E /* globeIcon.png in Resources */,
 				4069B2431A7474540098995C /* Suspense Accents 05.caf in Resources */,
 				4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */,
 				4069B2411A74744F0098995C /* Suspense Accents 03.caf in Resources */,
