@@ -9,6 +9,8 @@
 import UIKit
 import AVFoundation
 
+let kBonanzaAppStoreLink = "https://itunes.apple.com/us/podcast/bonanza!/id937578527";
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var button1: VlKeynrButton!
@@ -29,6 +31,10 @@ class ViewController: UIViewController {
     
     override func prefersStatusBarHidden() -> Bool {
         return true
+    }
+    
+    @IBAction func openPodcastsApp(sender: AnyObject) {
+        UIApplication.sharedApplication().openURL(NSURL(string: kBonanzaAppStoreLink)!);
     }
 }
 

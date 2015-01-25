@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Igy-T1-nIn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C106a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Igy-T1-nIn">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -27,24 +27,44 @@
                                     <segue destination="lxU-p5-vtQ" kind="embed" id="d94-Lg-LEv"/>
                                 </connections>
                             </containerView>
-                            <button opaque="NO" contentMode="redraw" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfZ-hn-qh9">
-                                <rect key="frame" x="-18" y="0.0" width="450" height="322"/>
-                                <state key="normal" backgroundImage="BonanzaLogo.png">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F8-fG-Zgs">
+                                <rect key="frame" x="124" y="8" width="166" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8F8-fG-Zgs" secondAttribute="height" multiplier="1:1" id="0DV-jw-Pse"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="166" id="b6F-eM-07X"/>
+                                </constraints>
+                                <state key="normal" image="BonanzaButtonBackground0.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="openPodcastsApp:" destination="Igy-T1-nIn" eventType="touchUpInside" id="n6G-jq-cch"/>
+                                </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="BonanzaLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="oS4-PO-w6Q">
+                                <rect key="frame" x="36" y="182" width="342" height="132"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.1215686275" green="0.1529411765" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.14117647058823529" green="0.17647058823529413" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="9Qz-56-lv9" secondAttribute="trailing" constant="-16" id="fxZ-tr-7gM"/>
-                            <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="9Qz-56-lv9" secondAttribute="bottom" id="jjv-9V-iD9"/>
-                            <constraint firstItem="9Qz-56-lv9" firstAttribute="width" secondItem="PrY-B4-s3D" secondAttribute="width" id="omR-sG-qN9"/>
-                            <constraint firstItem="9Qz-56-lv9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="-16" id="rPW-ec-JgA"/>
-                            <constraint firstItem="9Qz-56-lv9" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="350" id="rTD-Hz-Lv7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Qz-56-lv9" secondAttribute="trailing" constant="-16" id="5a2-nz-3Ev"/>
+                            <constraint firstItem="9Qz-56-lv9" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="-16" id="5cE-w1-z5E"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oS4-PO-w6Q" secondAttribute="trailing" constant="20" id="6Sv-ah-rnK"/>
+                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="top" secondItem="8F8-fG-Zgs" secondAttribute="bottom" constant="8" id="BgS-u4-znD"/>
+                            <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="oS4-PO-w6Q" secondAttribute="bottom" constant="456" id="KKJ-wc-wNN"/>
+                            <constraint firstItem="8F8-fG-Zgs" firstAttribute="top" secondItem="spy-RR-i4Q" secondAttribute="bottom" constant="8" id="KQe-DK-jtv"/>
+                            <constraint firstItem="9Qz-56-lv9" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oS4-PO-w6Q" secondAttribute="bottom" constant="8" id="csn-Fu-i3E"/>
+                            <constraint firstAttribute="centerX" secondItem="oS4-PO-w6Q" secondAttribute="centerX" id="cyh-Ja-kEc"/>
+                            <constraint firstAttribute="centerX" secondItem="8F8-fG-Zgs" secondAttribute="centerX" id="p64-IE-bbg"/>
+                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="leading" secondItem="PrY-B4-s3D" secondAttribute="leadingMargin" constant="20" id="qcS-di-7AT"/>
+                            <constraint firstItem="n2D-B4-9l6" firstAttribute="top" secondItem="9Qz-56-lv9" secondAttribute="bottom" id="rji-BB-RT8"/>
+                            <constraint firstAttribute="centerY" secondItem="8F8-fG-Zgs" secondAttribute="centerY" id="sYw-qv-MZd"/>
+                            <constraint firstItem="oS4-PO-w6Q" firstAttribute="leading" secondItem="8F8-fG-Zgs" secondAttribute="trailing" constant="-254" id="vFd-Jb-pXV"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="rTD-Hz-Lv7"/>
+                                <exclude reference="sYw-qv-MZd"/>
+                                <exclude reference="vFd-Jb-pXV"/>
+                                <exclude reference="KKJ-wc-wNN"/>
                             </mask>
                         </variation>
                     </view>
@@ -76,6 +96,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BonanzaLogo.png" width="450" height="450"/>
+        <image name="BonanzaButtonBackground0.png" width="320" height="320"/>
+        <image name="BonanzaLogo.png" width="716" height="210"/>
     </resources>
 </document>
