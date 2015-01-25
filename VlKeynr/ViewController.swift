@@ -9,9 +9,9 @@
 import UIKit
 import AVFoundation
 
-let kBonanzaAppStoreLink = "https://itunes.apple.com/us/podcast/bonanza!/id937578527";
-
 class ViewController: UIViewController {
+
+    let bonanzaRelayLink = "http://www.relay.fm/bonanza"
 
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func openPodcastsApp(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: kBonanzaAppStoreLink)!);
+        UIApplication.sharedApplication().openURL(NSURL(string: bonanzaRelayLink)!);
     }
   
 }
