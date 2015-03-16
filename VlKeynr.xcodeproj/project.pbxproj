@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E0926BE1A756EF300CD933E /* RelayFM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0926BD1A756EF300CD933E /* RelayFM.png */; };
-		2E0926C21A7572BD00CD933E /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0926C11A7572BD00CD933E /* Main~ipad.storyboard */; };
+		2E16893D1AB1B55C00805069 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */; };
 		2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 		2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
@@ -83,7 +83,6 @@
 		2E43298C1A1BDAB200D019DD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E43298B1A1BDAB200D019DD /* InterfaceController.swift */; };
 		2E4329901A1BDAB200D019DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43298F1A1BDAB200D019DD /* Images.xcassets */; };
 		2E4329941A1BDAB300D019DD /* VlKeynr Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = 2E4329931A1BDAB300D019DD /* VlKeynr Watch App.app */; };
-		2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E4329851A1BDAB200D019DD /* VlKeynr WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2E53B1751A18E5980026E154 /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 		2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E53B1781A18E7D90026E154 /* Main.storyboard */; };
 		2E53B17A1A18E8780026E154 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA0681A176C4300E9842F /* KeyboardViewController.swift */; };
@@ -135,13 +134,6 @@
 			remoteGlobalIDString = 2E4329921A1BDAB300D019DD;
 			remoteInfo = "VlKeynr Watch App";
 		};
-		2E43299E1A1BDAB300D019DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E4329841A1BDAB200D019DD;
-			remoteInfo = "VlKeynr WatchKit Extension";
-		};
 		2EABA0511A176AFA00E9842F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2EABA0331A176AFA00E9842F /* Project object */;
@@ -172,7 +164,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2E4329A01A1BDAB300D019DD /* VlKeynr WatchKit Extension.appex in Embed App Extensions */,
 				2EABA06C1A176C4300E9842F /* VlKeynrPad.appex in Embed App Extensions */,
 				40F068831A746ABF007D9F6D /* VlTodaynr.appex in Embed App Extensions */,
 			);
@@ -183,7 +174,7 @@
 
 /* Begin PBXFileReference section */
 		2E0926BD1A756EF300CD933E /* RelayFM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RelayFM.png; sourceTree = "<group>"; };
-		2E0926C11A7572BD00CD933E /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
+		2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
 		2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = VlKeynrPad/VlKeynrButton.swift; sourceTree = "<group>"; };
 		2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VlKeynrPad.xib; path = VlKeynrPad/VlKeynrPad.xib; sourceTree = "<group>"; };
 		2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BonanzaButtonBackground0.png; sourceTree = "<group>"; };
@@ -407,7 +398,7 @@
 				2EABA0421A176AFA00E9842F /* ViewController.swift */,
 				2EABA03E1A176AFA00E9842F /* Supporting Files */,
 				2E53B1781A18E7D90026E154 /* Main.storyboard */,
-				2E0926C11A7572BD00CD933E /* Main~ipad.storyboard */,
+				2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */,
 			);
 			path = VlKeynr;
 			sourceTree = "<group>";
@@ -522,7 +513,6 @@
 			);
 			dependencies = (
 				2EABA06B1A176C4300E9842F /* PBXTargetDependency */,
-				2E43299F1A1BDAB300D019DD /* PBXTargetDependency */,
 				40F068821A746ABF007D9F6D /* PBXTargetDependency */,
 			);
 			name = VlKeynr;
@@ -593,12 +583,15 @@
 				TargetAttributes = {
 					2E4329841A1BDAB200D019DD = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Q7LB9QSYQ9;
 					};
 					2E4329921A1BDAB300D019DD = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Q7LB9QSYQ9;
 					};
 					2EABA03A1A176AFA00E9842F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = Q7LB9QSYQ9;
 					};
 					2EABA04F1A176AFA00E9842F = {
 						CreatedOnToolsVersion = 6.1;
@@ -606,9 +599,11 @@
 					};
 					2EABA0631A176C4300E9842F = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = Q7LB9QSYQ9;
 					};
 					40F068761A746ABF007D9F6D = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = Q7LB9QSYQ9;
 					};
 				};
 			};
@@ -691,7 +686,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0926C21A7572BD00CD933E /* Main~ipad.storyboard in Resources */,
 				2E362E931A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
 				2E362E671A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
 				2E0926BE1A756EF300CD933E /* RelayFM.png in Resources */,
@@ -703,6 +697,7 @@
 				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
 				2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
+				2E16893D1AB1B55C00805069 /* Main~ipad.storyboard in Resources */,
 				2E362E6B1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
 				2E362E731A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
 				2E362E7F1A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
@@ -837,11 +832,6 @@
 			target = 2E4329921A1BDAB300D019DD /* VlKeynr Watch App */;
 			targetProxy = 2E4329951A1BDAB300D019DD /* PBXContainerItemProxy */;
 		};
-		2E43299F1A1BDAB300D019DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E4329841A1BDAB200D019DD /* VlKeynr WatchKit Extension */;
-			targetProxy = 2E43299E1A1BDAB300D019DD /* PBXContainerItemProxy */;
-		};
 		2EABA0521A176AFA00E9842F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2EABA03A1A176AFA00E9842F /* VlKeynr */;
@@ -865,6 +855,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -884,6 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IBSC_MODULE = VlKeynr_WatchKit_Extension;
 				INFOPLIST_FILE = "VlKeynr Watch App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
@@ -897,6 +889,7 @@
 		2E4329A51A1BDAB300D019DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -912,6 +905,7 @@
 		2E4329A61A1BDAB300D019DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "VlKeynr WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -937,7 +931,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -980,7 +975,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1003,6 +999,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1015,6 +1012,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = VlKeynr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1062,6 +1060,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1069,6 +1069,7 @@
 				INFOPLIST_FILE = VlKeynrPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1078,9 +1079,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michal Kaluzny (V47WK55Q75)";
 				INFOPLIST_FILE = VlKeynrPad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -1088,6 +1092,7 @@
 		40F068841A746AC0007D9F6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1103,6 +1108,7 @@
 		40F068851A746AC0007D9F6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = VlTodaynr/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
