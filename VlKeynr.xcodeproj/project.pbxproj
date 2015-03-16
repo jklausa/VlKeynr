@@ -173,7 +173,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E0926BD1A756EF300CD933E /* RelayFM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RelayFM.png; sourceTree = "<group>"; };
 		2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main~ipad.storyboard"; sourceTree = "<group>"; };
 		2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VlKeynrButton.swift; path = VlKeynrPad/VlKeynrButton.swift; sourceTree = "<group>"; };
 		2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VlKeynrPad.xib; path = VlKeynrPad/VlKeynrPad.xib; sourceTree = "<group>"; };
@@ -277,7 +276,6 @@
 		2E362E451A1BF29B00D6968B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2E0926BD1A756EF300CD933E /* RelayFM.png */,
 				2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */,
 				2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */,
 				2E362E481A1BF29B00D6968B /* BonanzaButtonBackground2.png */,
@@ -688,7 +686,6 @@
 			files = (
 				2E362E931A1BF29B00D6968B /* Suspense Accents 07.caf in Resources */,
 				2E362E671A1BF29B00D6968B /* BonanzaButtonBackground4.png in Resources */,
-				2E0926BE1A756EF300CD933E /* RelayFM.png in Resources */,
 				2E362E631A1BF29B00D6968B /* BonanzaButtonBackground3.png in Resources */,
 				2E362E5F1A1BF29B00D6968B /* BonanzaButtonBackground2.png in Resources */,
 				2E362E571A1BF29B00D6968B /* BonanzaButtonBackground0.png in Resources */,
