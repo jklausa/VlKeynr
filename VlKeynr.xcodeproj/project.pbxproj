@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E0926BE1A756EF300CD933E /* RelayFM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0926BD1A756EF300CD933E /* RelayFM.png */; };
-		2E16893D1AB1B55C00805069 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */; };
 		2E362E351A1BDBA500D6968B /* VlKeynrSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A8A0BB1A17A98B00FC9B79 /* VlKeynrSound.swift */; };
 		2E362E381A1BDDC000D6968B /* VlKeynrButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E362E361A1BDDC000D6968B /* VlKeynrButton.swift */; };
 		2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E371A1BDDC000D6968B /* VlKeynrPad.xib */; };
@@ -97,6 +95,7 @@
 		2EDC72151A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
 		2EDC72161A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
 		2EDC72171A7578F10087B052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDC72121A7578F10087B052 /* Images.xcassets */; };
+		2EF1B18C1AB7292200AE5477 /* Main~ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E16893C1AB1B55C00805069 /* Main~ipad.storyboard */; };
 		4064AC111A18CD15003ABB0A /* globeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4064AC101A18CD15003ABB0A /* globeIcon.png */; };
 		4069B2371A7474240098995C /* BonanzaButtonBackground0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E461A1BF29B00D6968B /* BonanzaButtonBackground0.png */; };
 		4069B2381A7474270098995C /* BonanzaButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E362E471A1BF29B00D6968B /* BonanzaButtonBackground1.png */; };
@@ -694,7 +693,6 @@
 				2E362E391A1BDDC000D6968B /* VlKeynrPad.xib in Resources */,
 				2E362E8F1A1BF29B00D6968B /* Suspense Accents 06.caf in Resources */,
 				2E53B1791A18E7D90026E154 /* Main.storyboard in Resources */,
-				2E16893D1AB1B55C00805069 /* Main~ipad.storyboard in Resources */,
 				2E362E6B1A1BF29B00D6968B /* BonanzaButtonBackground5.png in Resources */,
 				2E362E731A1BF29B00D6968B /* BonanzaLogo.png in Resources */,
 				2E362E7F1A1BF29B00D6968B /* Suspense Accents 02.caf in Resources */,
@@ -705,6 +703,7 @@
 				2E362E6F1A1BF29B00D6968B /* BonanzaButtonBackground6.png in Resources */,
 				2E362E831A1BF29B00D6968B /* Suspense Accents 03.caf in Resources */,
 				2E362E7B1A1BF29B00D6968B /* Suspense Accents 01.caf in Resources */,
+				2EF1B18C1AB7292200AE5477 /* Main~ipad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
